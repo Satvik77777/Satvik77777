@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 220" width="850" height="220">
+  <defs>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#080C14"/>
+    </linearGradient>
+    <filter id="radarGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .card-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 600; fill: #F0F6FC; }
+    .sub-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 13.5px; font-weight: 500; fill: #C9D1D9; }
+    .repo-link { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 13.5px; font-weight: 600; fill: #58A6FF; text-decoration: none; }
+    .repo-link:hover { text-decoration: underline; fill: #79C0FF; }
+    .text-muted { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 13.5px; fill: #8B949E; }
+    .radar-pct { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 700; fill: #F0F6FC; }
+    .radar-label { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 11px; fill: #8B949E; }
+  </style>
+
+  <!-- Card Background -->
+  <rect width="850" height="220" rx="10" fill="url(#cardBg)" stroke="#30363D" stroke-width="1.2"/>
+
+  <!-- Top Organization Pill: ONLY @accordproject per user specification -->
+  <g transform="translate(32, 22)">
+    <rect width="174" height="34" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1.2"/>
+    
+    <!-- Accord Project stylized Logo -->
+    <g transform="translate(9, 6)">
+      <rect width="22" height="22" rx="4.5" fill="#1D2A44" stroke="#2563EB" stroke-width="1"/>
+      <path d="M5.5 17 L11 4.5 L16.5 17 Z" fill="none" stroke="#60A5FA" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+      <line x1="7.5" y1="13" x2="14.5" y2="13" stroke="#93C5FD" stroke-width="2"/>
+    </g>
+    
+    <text x="39" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#F0F6FC">@accordproject</text>
+  </g>
+
+  <!-- Left: Activity overview & Contributed to Section -->
+  <g transform="translate(32, 78)">
+    <text x="0" y="4" class="card-title">Activity overview</text>
+    
+    <!-- Contributed to header with official Octicon repo icon -->
+    <g transform="translate(0, 26)">
+      <!-- Octicon Repo Book Icon (16x16) -->
+      <g transform="translate(0, 1)">
+        <path d="M2 1.75C2 .784 2.784 0 3.75 0h6.5C11.216 0 12 .784 12 1.75v10.5A1.75 1.75 0 0 1 10.25 14H3.75A1.75 1.75 0 0 1 2 12.25Zm1.75-.25a.25.25 0 0 0-.25.25v10.5c0 .138.112.25.25.25h6.5a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25Z" fill="#8B949E"/>
+      </g>
+      <text x="22" y="12" class="sub-title">Contributed to</text>
+      
+      <!-- Repositories requested by user -->
+      <g transform="translate(22, 36)">
+        <!-- accordproject/template-playground -->
+        <a href="https://github.com/accordproject/template-playground" target="_blank">
+          <text x="0" y="0" class="repo-link">accordproject/template-playground<tspan class="text-muted"> ,</tspan></text>
+        </a>
+        
+        <!-- accordproject/apap and other repositories -->
+        <g transform="translate(0, 24)">
+          <a href="https://github.com/accordproject/apap" target="_blank">
+            <text x="0" y="0" class="repo-link">accordproject/apap</text>
+          </a>
+          <text x="148" y="0" class="text-muted">and other repositories</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Middle Divider Line -->
+  <line x1="435" y1="20" x2="435" y2="200" stroke="#30363D" stroke-width="1"/>
+
+  <!-- Right: Activity Breakdown 4-Axis Radar Chart -->
+  <g transform="translate(0, 0)">
+    <!-- 4 Axes lines (GitHub Vibrant Green #2EA043) -->
+    <g stroke="#2EA043" stroke-width="1.8" stroke-linecap="round">
+      <!-- Horizontal axis: Commits <-> Issues -->
+      <line x1="577" y1="110" x2="713" y2="110"/>
+      <!-- Vertical axis: Code Review <-> Pull Requests -->
+      <line x1="645" y1="42" x2="645" y2="178"/>
+    </g>
+
+    <!-- Radar Area Polygon with Glowing Shade -->
+    <polygon points="645.0,105.9 649.1,110.0 645.0,119.5 580.4,110.0" fill="rgba(46, 160, 67, 0.45)" stroke="#3FB950" stroke-width="2.2" filter="url(#radarGlow)"/>
+
+    <!-- Vertex Points with White Outer Ring & Green Center -->
+    <circle cx="645.0" cy="105.9" r="3.5" fill="#3FB950" stroke="#FFFFFF" stroke-width="1.4"/>
+    <circle cx="645.0" cy="119.5" r="3.5" fill="#3FB950" stroke="#FFFFFF" stroke-width="1.4"/>
+    <circle cx="580.4" cy="110.0" r="4" fill="#3FB950" stroke="#FFFFFF" stroke-width="1.5"/>
+    <circle cx="649.1" cy="110.0" r="3.5" fill="#3FB950" stroke="#FFFFFF" stroke-width="1.4"/>
+
+    <!-- Axis Labels -->
+    <!-- Top: Code review (1%) -->
+    <g transform="translate(645, 32)" text-anchor="middle">
+      <text y="-11" class="radar-pct">1%</text>
+      <text y="2" class="radar-label">Code review</text>
+    </g>
+
+    <!-- Bottom: Pull requests (3%) -->
+    <g transform="translate(645, 193)" text-anchor="middle">
+      <text y="0" class="radar-pct">3%</text>
+      <text y="14" class="radar-label">Pull requests</text>
+    </g>
+
+    <!-- Left: Commits (95%) -->
+    <g transform="translate(567, 110)" text-anchor="end">
+      <text y="-4" class="radar-pct">95%</text>
+      <text y="10" class="radar-label">Commits</text>
+    </g>
+
+    <!-- Right: Issues (1%) -->
+    <g transform="translate(723, 110)" text-anchor="start">
+      <text y="-4" class="radar-pct">1%</text>
+      <text y="10" class="radar-label">Issues</text>
+    </g>
+  </g>
+</svg>
