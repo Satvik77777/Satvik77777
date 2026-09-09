@@ -22,6 +22,13 @@
 
 <br/>
 
+<!-- ===== ACTIVITY OVERVIEW & CONTRIBUTIONS ===== -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/activity-overview.svg" width="100%" alt="Satvik's Activity Overview and Contributions" />
+</div>
+
+<br/>
+
 <!-- ===== ACCURATE CONTRIBUTION SNAKE WITH MONTHS ===== -->
 <div align="center">
 <picture>
