@@ -18,7 +18,7 @@
     .sub-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 13.5px; font-weight: 500; fill: #C9D1D9; }
     .repo-link { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 13.5px; font-weight: 600; fill: #58A6FF; text-decoration: none; }
     .repo-link:hover { text-decoration: underline; fill: #79C0FF; }
-    .text-muted { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 13.5px; fill: #8B949E; }
+    .text-muted { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 13.5px; fill: #8B949E; font-weight: 400; }
     .radar-pct { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 700; fill: #F0F6FC; }
     .radar-label { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 11px; fill: #8B949E; }
   </style>
@@ -46,13 +46,13 @@
     
     <!-- Contributed to header with official Octicon repo icon -->
     <g transform="translate(0, 26)">
-      <!-- Octicon Repo Book Icon (16x16) -->
-      <g transform="translate(0, 1)">
-        <path d="M2 1.75C2 .784 2.784 0 3.75 0h6.5C11.216 0 12 .784 12 1.75v10.5A1.75 1.75 0 0 1 10.25 14H3.75A1.75 1.75 0 0 1 2 12.25Zm1.75-.25a.25.25 0 0 0-.25.25v10.5c0 .138.112.25.25.25h6.5a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25Z" fill="#8B949E"/>
-      </g>
+      <!-- Official GitHub Octicon 16 Book Repo Icon -->
+      <svg x="0" y="0" width="16" height="16" viewBox="0 0 16 16" fill="#8B949E">
+        <path d="M0 1.75A.75.75 0 0 1 .75 1h4.253c1.227 0 2.317.59 3 1.501A3.743 3.743 0 0 1 11 1h4.25a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75h-4.25a2.25 2.25 0 0 0-1.764.846 1.25 1.25 0 0 1-1.972 0A2.25 2.25 0 0 0 5.003 13H.75a.75.75 0 0 1-.75-.75V1.75zM1.5 3v7.5h3.5c1.036 0 1.94.49 2.5 1.25V3.75c-.56-.76-1.464-1.25-2.5-1.25H1.5zm13 0h-3.5c-1.036 0-1.94.49-2.5 1.25v7.75c.56-.76 1.464-1.25 2.5-1.25h3.5V3z"/>
+      </svg>
       <text x="22" y="12" class="sub-title">Contributed to</text>
       
-      <!-- Repositories requested by user -->
+      <!-- Repositories specified by user -->
       <g transform="translate(22, 36)">
         <!-- accordproject/template-playground -->
         <a href="https://github.com/accordproject/template-playground" target="_blank">
@@ -62,9 +62,8 @@
         <!-- accordproject/apap and other repositories -->
         <g transform="translate(0, 24)">
           <a href="https://github.com/accordproject/apap" target="_blank">
-            <text x="0" y="0" class="repo-link">accordproject/apap</text>
+            <text x="0" y="0" class="repo-link">accordproject/apap <tspan class="text-muted">and other repositories</tspan></text>
           </a>
-          <text x="148" y="0" class="text-muted">and other repositories</text>
         </g>
       </g>
     </g>
