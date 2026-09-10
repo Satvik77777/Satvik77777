@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 236" width="850" height="236">
+  <defs>
+    <linearGradient id="apicurioCardBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#080C14"/>
+    </linearGradient>
+    <filter id="apicurioRadarGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .card-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 600; fill: #F0F6FC; }
+    .sub-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 13.5px; font-weight: 500; fill: #C9D1D9; }
+    .repo-link { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 13.5px; font-weight: 600; fill: #58A6FF; text-decoration: none; }
+    .repo-link:hover { text-decoration: underline; fill: #79C0FF; }
+    .text-muted { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 13.5px; fill: #8B949E; font-weight: 400; }
+    .radar-pct { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 700; fill: #F0F6FC; }
+    .radar-label { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 11px; fill: #8B949E; }
+  </style>
+
+  <!-- Card Background -->
+  <rect width="850" height="236" rx="10" fill="url(#apicurioCardBg)" stroke="#30363D" stroke-width="1.2"/>
+
+  <!-- Top Organization Pill: @Apicurio with outward indicator -->
+  <g transform="translate(32, 22)">
+    <rect width="146" height="34" rx="8" fill="#161B22" stroke="#8B5CF6" stroke-width="1.2"/>
+    
+    <!-- Apicurio stylized geometric icon -->
+    <g transform="translate(9, 6)">
+      <rect width="22" height="22" rx="4.5" fill="#2E1065" stroke="#8B5CF6" stroke-width="1"/>
+      <circle cx="11" cy="11" r="5" fill="none" stroke="#C084FC" stroke-width="2"/>
+      <path d="M11 3 L11 8 M11 14 L11 19 M3 11 L8 11 M14 11 L19 11" stroke="#E879F9" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+    
+    <text x="39" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#F0F6FC">@Apicurio</text>
+    <path d="M126 13 L134 13 M134 13 L134 21 M134 13 L126 21" fill="none" stroke="#A78BFA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Left: Activity overview & Contributed to Section -->
+  <g transform="translate(32, 82)">
+    <text x="0" y="4" class="card-title">Activity overview</text>
+    
+    <!-- Contributed to header with crisp vector book icon -->
+    <g transform="translate(0, 26)">
+      <!-- Book Repo Icon -->
+      <g transform="translate(0, -1)">
+        <rect x="0.8" y="0.8" width="14.4" height="14.4" rx="2" fill="none" stroke="#8B949E" stroke-width="1.6"/>
+        <line x1="4.8" y1="1" x2="4.8" y2="15" stroke="#8B949E" stroke-width="1.5"/>
+        <path d="M8 1 L8 6.5 L10.5 4.8 L13 6.5 L13 1" fill="#8B949E"/>
+      </g>
+      <text x="24" y="12" class="sub-title">Contributed to</text>
+      
+      <!-- Repositories -->
+      <g transform="translate(24, 38)">
+        <!-- Apicurio/apicurio-registry -->
+        <text x="0" y="0" class="repo-link">Apicurio/apicurio-registry<tspan class="text-muted"> ,</tspan></text>
+        
+        <!-- MCP Tools & Registry Extensions -->
+        <g transform="translate(0, 25)">
+          <text x="0" y="0" class="repo-link">Apicurio/apicurio-registry#9045 <tspan class="text-muted">(MCP compatible tools API &amp; UI)</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Middle Divider Line -->
+  <line x1="435" y1="20" x2="435" y2="216" stroke="#30363D" stroke-width="1"/>
+
+  <!-- Right: Activity Breakdown 4-Axis Radar Chart -->
+  <g transform="translate(0, 0)">
+    <!-- 4 Axes lines (#8B5CF6 Purple/Cyan theme) -->
+    <g stroke="#8B5CF6" stroke-width="1.8" stroke-linecap="round">
+      <!-- Horizontal axis: Commits <-> Issues -->
+      <line x1="579" y1="118" x2="711" y2="118"/>
+      <!-- Vertical axis: Code Review <-> Pull Requests -->
+      <line x1="645" y1="52" x2="645" y2="184"/>
+    </g>
+
+    <!-- Radar Area Polygon with Glowing Shade -->
+    <polygon points="645.0,110.1 652.9,118.0 645.0,147.7 590.9,118.0" fill="rgba(139, 92, 246, 0.45)" stroke="#A78BFA" stroke-width="2.2" filter="url(#apicurioRadarGlow)"/>
+
+    <!-- Vertex Points with White Outer Ring & Purple Center -->
+    <circle cx="645.0" cy="110.1" r="3.5" fill="#A78BFA" stroke="#FFFFFF" stroke-width="1.4"/>
+    <circle cx="645.0" cy="147.7" r="3.5" fill="#A78BFA" stroke="#FFFFFF" stroke-width="1.4"/>
+    <circle cx="590.9" cy="118.0" r="4" fill="#A78BFA" stroke="#FFFFFF" stroke-width="1.5"/>
+    <circle cx="652.9" cy="118.0" r="3.5" fill="#A78BFA" stroke="#FFFFFF" stroke-width="1.4"/>
+
+    <!-- Axis Labels -->
+    <!-- Top: Code review (3%) -->
+    <g transform="translate(645, 44)" text-anchor="middle">
+      <text y="-11" class="radar-pct">3%</text>
+      <text y="2" class="radar-label">Code review</text>
+    </g>
+
+    <!-- Bottom: Pull requests (15%) -->
+    <g transform="translate(645, 200)" text-anchor="middle">
+      <text y="0" class="radar-pct">15%</text>
+      <text y="14" class="radar-label">Pull requests</text>
+    </g>
+
+    <!-- Left: Commits (80%) -->
+    <g transform="translate(569, 118)" text-anchor="end">
+      <text y="-4" class="radar-pct">80%</text>
+      <text y="10" class="radar-label">Commits</text>
+    </g>
+
+    <!-- Right: Issues (2%) -->
+    <g transform="translate(721, 118)" text-anchor="start">
+      <text y="-4" class="radar-pct">2%</text>
+      <text y="10" class="radar-label">Issues</text>
+    </g>
+  </g>
+</svg>
