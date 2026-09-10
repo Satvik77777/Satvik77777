@@ -5,6 +5,15 @@
   <img alt="Satvik - Software Engineer" src="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/dark.svg" width="100%">
 </picture>
 
+<br/>
+
+<!-- ===== PROFILE TELEMETRY / VISITOR COUNTER ===== -->
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=Satvik77777&color=22D3EE&style=for-the-badge&label=PROFILE+VIEWS" alt="Satvik's Profile Views" />
+</div>
+
+<br/>
+
 <!-- ===== GITHUB STATS ===== -->
 <div align="center">
 
