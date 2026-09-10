@@ -22,10 +22,51 @@
 
 <br/>
 
-<!-- ===== ACTIVITY OVERVIEW & CONTRIBUTIONS ===== -->
+<!-- ===== OPEN SOURCE ORGANIZATIONS & CONTRIBUTIONS ===== -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/activity-overview.svg" width="100%" alt="Satvik's Activity Overview and Contributions" />
+  <a href="https://github.com/accordproject" target="_blank" title="Visit @accordproject on GitHub">
+    <img src="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/badge_accordproject.svg" alt="@accordproject" height="34" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/Apicurio" target="_blank" title="Visit @Apicurio on GitHub">
+    <img src="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/badge_apicurio.svg" alt="@Apicurio" height="34" />
+  </a>
 </div>
+
+<br/>
+
+<!-- Accord Project Dropdown -->
+<details open>
+  <summary>🏢 <b>Accord Project (@accordproject) Activity &amp; Repositories</b> ▾</summary>
+  <br/>
+  <div align="center">
+    <a href="https://github.com/accordproject" target="_blank" title="Open @accordproject on GitHub">
+      <img src="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/activity-overview.svg" width="100%" alt="Accord Project Activity Overview and Contributions" />
+    </a>
+  </div>
+  <p align="center">
+    📂 <b>Featured Repositories:</b>
+    <a href="https://github.com/accordproject/template-playground" target="_blank"><code>template-playground</code></a> •
+    <a href="https://github.com/accordproject/apap" target="_blank"><code>apap</code></a> •
+    <a href="https://github.com/accordproject/concerto" target="_blank"><code>concerto</code></a> •
+    <a href="https://github.com/accordproject/markdown-transform" target="_blank"><code>markdown-transform</code></a>
+  </p>
+</details>
+
+<!-- Apicurio Dropdown -->
+<details>
+  <summary>🏢 <b>Apicurio (@Apicurio) Activity &amp; Repositories</b> ▾</summary>
+  <br/>
+  <div align="center">
+    <a href="https://github.com/Apicurio" target="_blank" title="Open @Apicurio on GitHub">
+      <img src="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/activity-overview-apicurio.svg" width="100%" alt="Apicurio Activity Overview and Contributions" />
+    </a>
+  </div>
+  <p align="center">
+    📂 <b>Featured Repositories:</b>
+    <a href="https://github.com/Apicurio/apicurio-registry" target="_blank"><code>apicurio-registry</code></a> (PR <a href="https://github.com/Apicurio/apicurio-registry/pull/9045" target="_blank">#9045</a>: MCP compatible tools API &amp; UI)
+  </p>
+</details>
 
 <br/>
 
