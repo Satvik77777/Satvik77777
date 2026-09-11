@@ -124,6 +124,51 @@
   <stop offset="100%" stop-color="#60A5FA" stop-opacity="0"/>
 </radialGradient>
 
+
+<clipPath id="visMapClip"><rect x="36" y="84" width="400" height="492" rx="10"/></clipPath>
+<linearGradient id="catVignette" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0%" stop-color="#0A101F" stop-opacity="0.35"/>
+  <stop offset="18%" stop-color="#0A101F" stop-opacity="0"/>
+  <stop offset="80%" stop-color="#0A101F" stop-opacity="0"/>
+  <stop offset="100%" stop-color="#0A101F" stop-opacity="0.6"/>
+</linearGradient>
+<linearGradient id="pythonOfficialGrad" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0%" stop-color="#38BDF8"/>
+  <stop offset="48%" stop-color="#38BDF8"/>
+  <stop offset="52%" stop-color="#F59E0B"/>
+  <stop offset="100%" stop-color="#F59E0B"/>
+</linearGradient>
+<radialGradient id="reactBackdropGlow" cx="50%" cy="50%" r="50%">
+  <stop offset="0%" stop-color="#00D8FE" stop-opacity="0.28"/>
+  <stop offset="70%" stop-color="#00D8FE" stop-opacity="0.05"/>
+  <stop offset="100%" stop-color="#00D8FE" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="mongoBackdropGlow" cx="50%" cy="50%" r="50%">
+  <stop offset="0%" stop-color="#13AA52" stop-opacity="0.30"/>
+  <stop offset="70%" stop-color="#13AA52" stop-opacity="0.05"/>
+  <stop offset="100%" stop-color="#13AA52" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="pythonBackdropGlow" cx="50%" cy="50%" r="50%">
+  <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.25"/>
+  <stop offset="50%" stop-color="#F59E0B" stop-opacity="0.08"/>
+  <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="nodeBackdropGlow" cx="50%" cy="50%" r="50%">
+  <stop offset="0%" stop-color="#339933" stop-opacity="0.28"/>
+  <stop offset="70%" stop-color="#339933" stop-opacity="0.05"/>
+  <stop offset="100%" stop-color="#339933" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="tsBackdropGlow" cx="50%" cy="50%" r="50%">
+  <stop offset="0%" stop-color="#3178C6" stop-opacity="0.28"/>
+  <stop offset="70%" stop-color="#00599C" stop-opacity="0.06"/>
+  <stop offset="100%" stop-color="#3178C6" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="postgresBackdropGlow" cx="50%" cy="50%" r="50%">
+  <stop offset="0%" stop-color="#336791" stop-opacity="0.28"/>
+  <stop offset="70%" stop-color="#0284C7" stop-opacity="0.06"/>
+  <stop offset="100%" stop-color="#336791" stop-opacity="0"/>
+</radialGradient>
+
 </defs>
 <rect x="2" y="2" width="1176" height="606" rx="18" fill="#070B16"/>
 <g clip-path="url(#winClip)">
@@ -139,8 +184,8 @@
 <rect x="36" y="84" width="400" height="492" rx="10" fill="#0A101F" stroke="rgba(34,211,238,0.35)"/>
 
     <!-- ============================================================ -->
-    <!-- VISUAL.MAP: RAZOR-SHARP PIXEL TECH STACK (35s CYCLE)         -->
-    <!-- No blurred text or shapes. 100% crisp, rich technical data.  -->
+    <!-- VISUAL.MAP: OFFICIAL ACCURATE LOGOS + CRISP PIXEL ANIMATION -->
+    <!-- 100% Authentic Brand Logos with Zero Blur and Rich Data      -->
     <!-- ============================================================ -->
 
     <!-- ============================================================ -->
@@ -176,6 +221,7 @@
 
     <!-- ============================================================ -->
     <!-- PHASE 1: REACT 18 & NEXT.JS 14 (4.5s - 9.5s)                 -->
+    <!-- Official React Atom Path                                     -->
     <!-- ============================================================ -->
     <g id="react-pixel-layer" opacity="0" clip-path="url(#visMapClip)">
       <animate attributeName="opacity" 
@@ -185,13 +231,11 @@
       
       <rect x="36" y="84" width="400" height="492" fill="#F8FAFC"/>
 
-      <!-- Crisp Laser Line -->
       <line x1="36" y1="84" x2="436" y2="84" stroke="#00D8FE" stroke-width="1.8" opacity="0.6">
         <animate attributeName="y1" values="84; 576; 84" dur="3.5s" repeatCount="indefinite"/>
         <animate attributeName="y2" values="84; 576; 84" dur="3.5s" repeatCount="indefinite"/>
       </line>
 
-      <!-- Top Header -->
       <g transform="translate(52, 98)">
         <rect x="0" y="0" width="368" height="28" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="rgba(0, 216, 254, 0.5)" stroke-width="1"/>
         <circle cx="16" cy="14" r="4" fill="#00D8FE">
@@ -203,20 +247,16 @@
 
       <circle cx="236" cy="235" r="95" fill="url(#reactBackdropGlow)"/>
 
-      <!-- CRISP PIXEL MATRIX: React Atom Assembly (No blur, crisp edges) -->
+      <!-- PIXEL ASSEMBLY: Precursor Pixels -->
       <g id="react-pixels">
         <animate attributeName="opacity" 
                  values="0; 1; 1; 0.2; 0.2; 1; 0" 
                  keyTimes="0.00; 0.02; 0.15; 0.18; 0.25; 0.26; 0.28" 
                  dur="35s" repeatCount="indefinite"/>
         <g fill="#00D8FE" stroke="rgba(255,255,255,0.4)" stroke-width="0.5">
-          <!-- Nucleus -->
           <rect x="230" y="229" width="12" height="12" rx="2" fill="#FFFFFF"/>
           <rect x="222" y="232" width="7" height="7"/>
           <rect x="243" y="232" width="7" height="7"/>
-          <rect x="233" y="221" width="7" height="7"/>
-          <rect x="233" y="242" width="7" height="7"/>
-          <!-- Orbit 1 -->
           <rect x="176" y="231" width="8" height="8" rx="1"/>
           <rect x="190" y="220" width="8" height="8" rx="1"/>
           <rect x="208" y="212" width="8" height="8" rx="1"/>
@@ -227,61 +267,32 @@
           <rect x="256" y="250" width="8" height="8" rx="1"/>
           <rect x="208" y="250" width="8" height="8" rx="1"/>
           <rect x="190" y="242" width="8" height="8" rx="1"/>
-          <!-- Orbit 2 -->
-          <g transform="rotate(60, 236, 235)">
-            <rect x="176" y="231" width="8" height="8" rx="1"/>
-            <rect x="190" y="220" width="8" height="8" rx="1"/>
-            <rect x="208" y="212" width="8" height="8" rx="1"/>
-            <rect x="256" y="212" width="8" height="8" rx="1"/>
-            <rect x="274" y="220" width="8" height="8" rx="1"/>
-            <rect x="288" y="231" width="8" height="8" rx="1"/>
-            <rect x="274" y="242" width="8" height="8" rx="1"/>
-            <rect x="256" y="250" width="8" height="8" rx="1"/>
-            <rect x="208" y="250" width="8" height="8" rx="1"/>
-            <rect x="190" y="242" width="8" height="8" rx="1"/>
-          </g>
-          <!-- Orbit 3 -->
-          <g transform="rotate(120, 236, 235)">
-            <rect x="176" y="231" width="8" height="8" rx="1"/>
-            <rect x="190" y="220" width="8" height="8" rx="1"/>
-            <rect x="208" y="212" width="8" height="8" rx="1"/>
-            <rect x="256" y="212" width="8" height="8" rx="1"/>
-            <rect x="274" y="220" width="8" height="8" rx="1"/>
-            <rect x="288" y="231" width="8" height="8" rx="1"/>
-            <rect x="274" y="242" width="8" height="8" rx="1"/>
-            <rect x="256" y="250" width="8" height="8" rx="1"/>
-            <rect x="208" y="250" width="8" height="8" rx="1"/>
-            <rect x="190" y="242" width="8" height="8" rx="1"/>
-          </g>
         </g>
       </g>
 
-      <!-- CRISP VECTOR LOGO: React Atom (Razor sharp, no blur) -->
+      <!-- OFFICIAL ACCURATE REACT LOGO -->
       <g id="react-vector-logo">
         <animate attributeName="opacity" 
                  values="0; 0; 1; 1; 0; 0" 
                  keyTimes="0.00; 0.15; 0.17; 0.25; 0.27; 1.00" 
                  dur="35s" repeatCount="indefinite"/>
         <g transform="translate(236, 235)">
+          <!-- Live rotating orbital ring -->
           <g>
-            <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="16s" repeatCount="indefinite"/>
-            <ellipse cx="0" cy="0" rx="72" ry="26" fill="none" stroke="#00D8FE" stroke-width="3.2"/>
-            <ellipse cx="0" cy="0" rx="72" ry="26" fill="none" stroke="#00D8FE" stroke-width="3.2" transform="rotate(60)"/>
-            <ellipse cx="0" cy="0" rx="72" ry="26" fill="none" stroke="#00D8FE" stroke-width="3.2" transform="rotate(120)"/>
-            <circle cx="72" cy="0" r="4.2" fill="#FFFFFF"/>
-            <circle cx="-36" cy="62.3" r="4.2" fill="#FFFFFF"/>
+            <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
+            <g transform="scale(4.4) translate(-12, -12)">
+              <path fill="#00D8FE" d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38-.318-.184-.688-.277-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44-.96-.236-2.006-.417-3.107-.534-.66-.905-1.345-1.727-2.035-2.447 1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442-1.107.117-2.154.298-3.113.538-.112-.49-.195-.964-.254-1.42-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05c.455.468.91.992 1.36 1.564-.44-.02-.89-.034-1.345-.034-.46 0-.915.01-1.36.034.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093.406.582.802 1.203 1.183 1.86.372.64.71 1.29 1.018 1.946-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87-.728.063-1.466.098-2.21.098-.74 0-1.477-.035-2.202-.093-.406-.582-.802-1.204-1.183-1.86-.372-.64-.71-1.29-1.018-1.946.303-.657.646-1.313 1.013-1.954.38-.66.773-1.286 1.18-1.868.728-.064 1.466-.098 2.21-.098zm-3.635.254c-.24.377-.48.763-.704 1.16-.225.39-.435.782-.635 1.174-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0c.695.103 1.365.23 2.006.387-.18.632-.405 1.282-.66 1.933-.2-.39-.41-.783-.64-1.174-.225-.392-.465-.774-.705-1.146zm3.063.675c.484.15.944.317 1.375.498 1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493-.28-.958-.646-1.956-1.1-2.98.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98-.45 1.017-.812 2.01-1.086 2.964-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474 0-.768 1.12-1.742 2.852-2.476.42-.18.88-.342 1.356-.494zm11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39.24-.375.48-.762.705-1.158.225-.39.435-.788.636-1.18zm-9.945.02c.2.392.41.783.64 1.175.23.39.465.772.705 1.143-.695-.102-1.365-.23-2.006-.386.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295-.22-.005-.406-.05-.553-.132-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64c.44.02.89.034 1.345.034.46 0 .915-.01 1.36-.034-.44.572-.895 1.095-1.345 1.565-.455-.47-.91-.993-1.36-1.565z"/>
+            </g>
           </g>
-          <circle cx="0" cy="0" r="14" fill="#00D8FE"/>
-          <circle cx="0" cy="0" r="7" fill="#FFFFFF"/>
+          <circle cx="0" cy="0" r="10" fill="#00D8FE"/>
+          <circle cx="0" cy="0" r="5" fill="#FFFFFF"/>
         </g>
       </g>
 
-      <!-- Razor-Sharp Typography & Rich Data -->
       <text x="236" y="352" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="900" fill="#00D8FE" letter-spacing="2">REACT 18 &amp; NEXT.JS 14</text>
       <text x="236" y="373" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#0F172A" letter-spacing="0.5">React • Next.js • Tailwind CSS • Vue.js</text>
       <line x1="64" y1="388" x2="408" y2="388" stroke="rgba(0, 216, 254, 0.3)" stroke-width="1"/>
 
-      <!-- Rich Telemetry Cards -->
       <g transform="translate(52, 400)">
         <rect x="0" y="0" width="114" height="40" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="rgba(0, 216, 254, 0.4)" stroke-width="1"/>
         <text x="10" y="16" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="700" fill="#475569">ARCHITECTURE</text>
@@ -296,7 +307,6 @@
         <text x="10" y="30" transform="translate(254, 0)" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800" fill="#10B981">60 FPS • Zero CLS</text>
       </g>
 
-      <!-- Detailed Bottom Spec Bar -->
       <g transform="translate(52, 452)">
         <rect x="0" y="0" width="368" height="34" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="rgba(100, 116, 139, 0.3)" stroke-width="1"/>
         <text x="14" y="21" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700" fill="#475569">DEPLOYMENT</text>
@@ -309,6 +319,7 @@
 
     <!-- ============================================================ -->
     <!-- PHASE 2: MONGODB ATLAS (9.5s - 14.5s)                        -->
+    <!-- Official MongoDB Leaf Path                                   -->
     <!-- ============================================================ -->
     <g id="mongo-pixel-layer" opacity="0" clip-path="url(#visMapClip)">
       <animate attributeName="opacity" 
@@ -334,58 +345,38 @@
 
       <circle cx="236" cy="235" r="95" fill="url(#mongoBackdropGlow)"/>
 
-      <!-- CRISP PIXEL MATRIX: MongoDB Leaf -->
+      <!-- PIXEL ASSEMBLY: MongoDB Leaf Pixels -->
       <g id="mongo-pixels">
         <animate attributeName="opacity" 
                  values="0; 1; 1; 0.2; 0.2; 1; 0" 
                  keyTimes="0.00; 0.02; 0.29; 0.32; 0.39; 0.40; 0.42" 
                  dur="35s" repeatCount="indefinite"/>
         <g stroke="rgba(255,255,255,0.4)" stroke-width="0.5">
-          <g fill="#13AA52">
-            <rect x="232" y="165" width="8" height="8" rx="1"/>
-            <rect x="232" y="177" width="8" height="8" rx="1"/>
-            <rect x="232" y="189" width="8" height="8" rx="1"/>
-            <rect x="232" y="201" width="8" height="8" rx="1"/>
-            <rect x="232" y="213" width="8" height="8" rx="1"/>
-            <rect x="232" y="225" width="8" height="8" rx="1"/>
-            <rect x="232" y="237" width="8" height="8" rx="1"/>
-            <rect x="232" y="249" width="8" height="8" rx="1"/>
-            <rect x="232" y="261" width="8" height="8" rx="1"/>
-            <rect x="232" y="273" width="8" height="8" rx="1"/>
-            <rect x="234" y="285" width="4" height="12" fill="#855938"/>
-            <rect x="222" y="185" width="8" height="8" rx="1"/>
-            <rect x="218" y="197" width="12" height="8" rx="1"/>
-            <rect x="208" y="207" width="22" height="8" rx="1"/>
-            <rect x="202" y="217" width="28" height="8" rx="1"/>
-            <rect x="198" y="227" width="32" height="8" rx="1"/>
-            <rect x="200" y="237" width="30" height="8" rx="1"/>
-            <rect x="206" y="247" width="24" height="8" rx="1"/>
-            <rect x="214" y="257" width="16" height="8" rx="1"/>
-          </g>
-          <g fill="#00684A">
-            <rect x="242" y="185" width="8" height="8" rx="1"/>
-            <rect x="242" y="197" width="12" height="8" rx="1"/>
-            <rect x="242" y="207" width="22" height="8" rx="1"/>
-            <rect x="242" y="217" width="28" height="8" rx="1"/>
-            <rect x="242" y="227" width="32" height="8" rx="1"/>
-            <rect x="242" y="237" width="30" height="8" rx="1"/>
-            <rect x="242" y="247" width="24" height="8" rx="1"/>
-            <rect x="242" y="257" width="16" height="8" rx="1"/>
-          </g>
+          <rect x="232" y="185" width="8" height="8" rx="1" fill="#13AA52"/>
+          <rect x="232" y="197" width="8" height="8" rx="1" fill="#13AA52"/>
+          <rect x="232" y="209" width="8" height="8" rx="1" fill="#13AA52"/>
+          <rect x="232" y="221" width="8" height="8" rx="1" fill="#13AA52"/>
+          <rect x="232" y="233" width="8" height="8" rx="1" fill="#13AA52"/>
+          <rect x="232" y="245" width="8" height="8" rx="1" fill="#13AA52"/>
+          <rect x="232" y="257" width="8" height="8" rx="1" fill="#13AA52"/>
+          <rect x="234" y="270" width="4" height="12" fill="#855938"/>
+          <rect x="222" y="205" width="8" height="8" rx="1" fill="#13AA52"/>
+          <rect x="218" y="217" width="12" height="8" rx="1" fill="#13AA52"/>
+          <rect x="214" y="227" width="16" height="8" rx="1" fill="#13AA52"/>
+          <rect x="242" y="205" width="8" height="8" rx="1" fill="#00684A"/>
+          <rect x="242" y="217" width="12" height="8" rx="1" fill="#00684A"/>
+          <rect x="242" y="227" width="16" height="8" rx="1" fill="#00684A"/>
         </g>
       </g>
 
-      <!-- CRISP VECTOR LOGO: MongoDB Leaf -->
+      <!-- OFFICIAL ACCURATE MONGODB LEAF -->
       <g id="mongo-vector-logo">
         <animate attributeName="opacity" 
                  values="0; 0; 1; 1; 0; 0" 
                  keyTimes="0.00; 0.29; 0.31; 0.39; 0.41; 1.00" 
                  dur="35s" repeatCount="indefinite"/>
-        <g transform="translate(236, 235) scale(1.1)">
-          <path d="M 0 -68 C -18 -40, -42 -5, -42 22 C -42 46, -22 66, 0 76 Z" fill="#13AA52"/>
-          <path d="M 0 -68 C 18 -40, 42 -5, 42 22 C 42 46, 22 66, 0 76 Z" fill="#00684A"/>
-          <path d="M 0 -68 L 0 76" stroke="#FFFFFF" stroke-width="1.6" opacity="0.8"/>
-          <path d="M 0 76 L 0 88 C 0 91, -2 93, -4 95" stroke="#855938" stroke-width="3.5" stroke-linecap="round"/>
+        <g transform="translate(236, 235) scale(4.4) translate(-12, -12)">
+          <path fill="#13AA52" d="M17.193 9.555c-1.264-5.58-4.252-7.414-4.573-8.115-.28-.394-.53-.954-.735-1.44-.036.495-.055.685-.523 1.184-.723.566-4.438 3.682-4.74 10.02-.282 5.912 4.27 9.435 4.888 9.884l.07.05A73.49 73.49 0 0111.91 24h.481c.114-1.032.284-2.056.51-3.07.417-.296.604-.463.85-.693a11.342 11.342 0 003.639-8.464c.01-.814-.103-1.662-.197-2.218zm-5.336 8.195s0-8.291.275-8.29c.213 0 .49 10.695.49 10.695-.381-.045-.765-1.76-.765-2.405z"/>
         </g>
       </g>
 
@@ -419,6 +410,7 @@
 
     <!-- ============================================================ -->
     <!-- PHASE 3: PYTHON 3.12 (14.5s - 19.5s)                         -->
+    <!-- Official Python Dual Snakes Path                             -->
     <!-- ============================================================ -->
     <g id="python-pixel-layer" opacity="0" clip-path="url(#visMapClip)">
       <animate attributeName="opacity" 
@@ -444,41 +436,30 @@
 
       <circle cx="236" cy="235" r="95" fill="url(#pythonBackdropGlow)"/>
 
-      <!-- CRISP PIXEL MATRIX: Python Dual Snakes -->
+      <!-- PIXEL ASSEMBLY: Python Dual Snakes -->
       <g id="python-pixels">
         <animate attributeName="opacity" 
                  values="0; 1; 1; 0.2; 0.2; 1; 0" 
                  keyTimes="0.00; 0.02; 0.43; 0.46; 0.53; 0.54; 0.56" 
                  dur="35s" repeatCount="indefinite"/>
         <g stroke="rgba(255,255,255,0.4)" stroke-width="0.5">
-          <g fill="#38BDF8">
-            <rect x="210" y="175" width="32" height="10" rx="2"/>
-            <rect x="200" y="185" width="22" height="22" rx="2"/>
-            <rect x="222" y="185" width="38" height="10" rx="2"/>
-            <rect x="250" y="195" width="10" height="22" rx="2"/>
-            <rect x="210" y="207" width="40" height="10" rx="2"/>
-            <rect x="214" y="187" width="5" height="5" fill="#FFFFFF"/>
-          </g>
-          <g fill="#F59E0B">
-            <rect x="220" y="285" width="32" height="10" rx="2"/>
-            <rect x="240" y="263" width="22" height="22" rx="2"/>
-            <rect x="202" y="275" width="38" height="10" rx="2"/>
-            <rect x="202" y="253" width="10" height="22" rx="2"/>
-            <rect x="212" y="253" width="40" height="10" rx="2"/>
-            <rect x="243" y="278" width="5" height="5" fill="#FFFFFF"/>
-          </g>
+          <rect x="210" y="185" width="32" height="10" rx="2" fill="#38BDF8"/>
+          <rect x="200" y="195" width="22" height="22" rx="2" fill="#38BDF8"/>
+          <rect x="222" y="195" width="38" height="10" rx="2" fill="#38BDF8"/>
+          <rect x="220" y="275" width="32" height="10" rx="2" fill="#F59E0B"/>
+          <rect x="240" y="253" width="22" height="22" rx="2" fill="#F59E0B"/>
+          <rect x="202" y="265" width="38" height="10" rx="2" fill="#F59E0B"/>
         </g>
       </g>
 
-      <!-- CRISP VECTOR LOGO: Python Dual Snakes -->
+      <!-- OFFICIAL ACCURATE PYTHON LOGO -->
       <g id="python-vector-logo">
         <animate attributeName="opacity" 
                  values="0; 0; 1; 1; 0; 0" 
                  keyTimes="0.00; 0.43; 0.45; 0.53; 0.55; 1.00" 
                  dur="35s" repeatCount="indefinite"/>
-        <g transform="translate(236, 235) scale(3.5) translate(-16, -16)">
-          <path fill="#38BDF8" d="M15.8 0C7.2 0 7.7 3.7 7.7 3.7l.01 3.8h8.2v1.2H4.8S0 8.2 0 16.8s4.3 8.3 4.3 8.3h2.6v-3.7s-.1-4.3 4.3-4.3h8.2s4.2.1 4.2-4.1V3.7S24.4 0 15.8 0zm-4.4 2.6c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5.7-1.5 1.5-1.5z"/>
-          <path fill="#F59E0B" d="M16.2 32c8.6 0 8.1-3.7 8.1-3.7l-.01-3.8h-8.2v-1.2h11.1s4.8.5 4.8-8.1-4.3-8.3-4.3-8.3h-2.6v3.7s.1 4.3-4.3 4.3h-8.2s-4.2-.1-4.2 4.1v8.5s-.8 3.7 7.8 3.7zm4.4-2.6c-.8 0-1.5-.7-1.5-1.5s.7-1.5 1.5-1.5 1.5.7 1.5 1.5-.7 1.5-1.5 1.5z"/>
+        <g transform="translate(236, 235) scale(4.4) translate(-12, -12)">
+          <path fill="url(#pythonOfficialGrad)" d="M14.25.18l.9.2.73.26.59.3.45.32.34.34.25.34.16.33.1.3.04.26.02.2-.01.13V8.5l-.05.63-.13.55-.21.46-.26.38-.3.31-.33.25-.35.19-.35.14-.33.1-.3.07-.26.04-.21.02H8.77l-.69.05-.59.14-.5.22-.41.27-.33.32-.27.35-.2.36-.15.37-.1.35-.07.32-.04.27-.02.21v3.06H3.17l-.21-.03-.28-.07-.32-.12-.35-.18-.36-.26-.36-.36-.35-.46-.32-.59-.28-.73-.21-.88-.14-1.05-.05-1.23.06-1.22.16-1.04.24-.87.32-.71.36-.57.4-.44.42-.33.42-.24.4-.16.36-.1.32-.05.24-.01h.16l.06.01h8.16v-.83H6.18l-.01-2.75-.02-.37.05-.34.11-.31.17-.28.25-.26.31-.23.38-.2.44-.18.51-.15.58-.12.64-.1.71-.06.77-.04.84-.02 1.27.05zm-6.3 1.98l-.23.33-.08.41.08.41.23.34.33.22.41.09.41-.09.33-.22.23-.34.08-.41-.08-.41-.23-.33-.33-.22-.41-.09-.41.09zm13.09 3.95l.28.06.32.12.35.18.36.27.36.35.35.47.32.59.28.73.21.88.14 1.04.05 1.23-.06 1.23-.16 1.04-.24.86-.32.71-.36.57-.4.45-.42.33-.42.24-.4.16-.36.09-.32.05-.24.02-.16-.01h-8.22v.82h5.84l.01 2.76.02.36-.05.34-.11.31-.17.29-.25.25-.31.24-.38.2-.44.17-.51.15-.58.13-.64.09-.71.07-.77.04-.84.01-1.27-.04-1.07-.14-.9-.2-.73-.25-.59-.3-.45-.33-.34-.34-.25-.34-.16-.33-.1-.3-.04-.25-.02-.2.01-.13v-5.34l.05-.64.13-.54.21-.46.26-.38.3-.32.33-.24.35-.2.35-.14.33-.1.3-.06.26-.04.21-.02.13-.01h5.84l.69-.05.59-.14.5-.21.41-.28.33-.32.27-.35.2-.36.15-.36.1-.35.07-.32.04-.28.02-.21V6.07h2.09l.14.01zm-6.47 14.25l-.23.33-.08.41.08.41.23.33.33.23.41.08.41-.08.33-.23.23-.33.08-.41-.08-.41-.23-.33-.33-.23-.41-.08-.41.08z"/>
         </g>
       </g>
 
@@ -512,6 +493,7 @@
 
     <!-- ============================================================ -->
     <!-- PHASE 4: NODE.JS & EXPRESS (19.5s - 24.5s)                   -->
+    <!-- Official Node.js Hexagonal Lettermark Path                   -->
     <!-- ============================================================ -->
     <g id="node-pixel-layer" opacity="0" clip-path="url(#visMapClip)">
       <animate attributeName="opacity" 
@@ -521,82 +503,70 @@
       
       <rect x="36" y="84" width="400" height="492" fill="#F8FAFC"/>
 
-      <line x1="36" y1="84" x2="436" y2="84" stroke="#22C55E" stroke-width="1.8" opacity="0.6">
+      <line x1="36" y1="84" x2="436" y2="84" stroke="#339933" stroke-width="1.8" opacity="0.6">
         <animate attributeName="y1" values="84; 576; 84" dur="3.5s" repeatCount="indefinite"/>
         <animate attributeName="y2" values="84; 576; 84" dur="3.5s" repeatCount="indefinite"/>
       </line>
 
       <g transform="translate(52, 98)">
-        <rect x="0" y="0" width="368" height="28" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="rgba(34, 197, 94, 0.5)" stroke-width="1"/>
-        <circle cx="16" cy="14" r="4" fill="#22C55E">
+        <rect x="0" y="0" width="368" height="28" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="rgba(51, 153, 51, 0.5)" stroke-width="1"/>
+        <circle cx="16" cy="14" r="4" fill="#339933">
           <animate attributeName="opacity" values="1;0.4;1" dur="1.2s" repeatCount="indefinite"/>
         </circle>
-        <text x="28" y="18" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="800" fill="#22C55E" letter-spacing="1">CORE.STACK // 04: BACKEND RUNTIME</text>
-        <text x="352" y="18" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800" fill="#22C55E" text-anchor="end">V8 ENGINE</text>
+        <text x="28" y="18" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="800" fill="#339933" letter-spacing="1">CORE.STACK // 04: BACKEND RUNTIME</text>
+        <text x="352" y="18" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800" fill="#339933" text-anchor="end">V8 ENGINE</text>
       </g>
 
       <circle cx="236" cy="235" r="95" fill="url(#nodeBackdropGlow)"/>
 
-      <!-- CRISP PIXEL MATRIX: Node Hexagon -->
+      <!-- PIXEL ASSEMBLY: Node Hexagon Pixels -->
       <g id="node-pixels">
         <animate attributeName="opacity" 
                  values="0; 1; 1; 0.2; 0.2; 1; 0" 
                  keyTimes="0.00; 0.02; 0.57; 0.60; 0.67; 0.68; 0.70" 
                  dur="35s" repeatCount="indefinite"/>
-        <g fill="#22C55E" stroke="rgba(255,255,255,0.4)" stroke-width="0.5">
-          <rect x="216" y="170" width="10" height="8" rx="1"/>
-          <rect x="228" y="170" width="10" height="8" rx="1"/>
-          <rect x="240" y="170" width="10" height="8" rx="1"/>
-          <rect x="254" y="178" width="10" height="8" rx="1"/>
-          <rect x="266" y="188" width="10" height="8" rx="1"/>
-          <rect x="276" y="200" width="10" height="8" rx="1"/>
-          <rect x="284" y="214" width="8" height="10" rx="1"/>
-          <rect x="284" y="228" width="8" height="10" rx="1"/>
-          <rect x="284" y="242" width="8" height="10" rx="1"/>
-          <rect x="276" y="256" width="10" height="8" rx="1"/>
-          <rect x="266" y="268" width="10" height="8" rx="1"/>
-          <rect x="254" y="278" width="10" height="8" rx="1"/>
-          <rect x="240" y="286" width="10" height="8" rx="1"/>
-          <rect x="228" y="286" width="10" height="8" rx="1"/>
-          <rect x="216" y="286" width="10" height="8" rx="1"/>
-          <rect x="202" y="278" width="10" height="8" rx="1"/>
-          <rect x="190" y="268" width="10" height="8" rx="1"/>
-          <rect x="180" y="256" width="10" height="8" rx="1"/>
-          <rect x="174" y="242" width="8" height="10" rx="1"/>
-          <rect x="174" y="228" width="8" height="10" rx="1"/>
-          <rect x="174" y="214" width="8" height="10" rx="1"/>
-          <rect x="180" y="200" width="10" height="8" rx="1"/>
-          <rect x="190" y="188" width="10" height="8" rx="1"/>
-          <rect x="202" y="178" width="10" height="8" rx="1"/>
-          <rect x="212" y="216" width="18" height="7" rx="1" fill="#FFFFFF"/>
-          <rect x="212" y="225" width="7" height="18" rx="1" fill="#FFFFFF"/>
-          <rect x="212" y="243" width="18" height="7" rx="1" fill="#FFFFFF"/>
-          <rect x="242" y="216" width="18" height="7" rx="1" fill="#FFFFFF"/>
-          <rect x="253" y="225" width="7" height="18" rx="1" fill="#FFFFFF"/>
-          <rect x="242" y="243" width="18" height="7" rx="1" fill="#FFFFFF"/>
+        <g fill="#339933" stroke="rgba(255,255,255,0.4)" stroke-width="0.5">
+          <rect x="216" y="175" width="10" height="8" rx="1"/>
+          <rect x="228" y="175" width="10" height="8" rx="1"/>
+          <rect x="240" y="175" width="10" height="8" rx="1"/>
+          <rect x="254" y="185" width="10" height="8" rx="1"/>
+          <rect x="266" y="195" width="10" height="8" rx="1"/>
+          <rect x="276" y="210" width="10" height="8" rx="1"/>
+          <rect x="284" y="225" width="8" height="10" rx="1"/>
+          <rect x="284" y="240" width="8" height="10" rx="1"/>
+          <rect x="276" y="255" width="10" height="8" rx="1"/>
+          <rect x="266" y="270" width="10" height="8" rx="1"/>
+          <rect x="240" y="285" width="10" height="8" rx="1"/>
+          <rect x="228" y="285" width="10" height="8" rx="1"/>
+          <rect x="216" y="285" width="10" height="8" rx="1"/>
+          <rect x="190" y="270" width="10" height="8" rx="1"/>
+          <rect x="180" y="255" width="10" height="8" rx="1"/>
+          <rect x="174" y="240" width="8" height="10" rx="1"/>
+          <rect x="174" y="225" width="8" height="10" rx="1"/>
+          <rect x="180" y="210" width="10" height="8" rx="1"/>
+          <rect x="190" y="195" width="10" height="8" rx="1"/>
         </g>
       </g>
 
-      <!-- CRISP VECTOR LOGO: Node.js Hexagon -->
+      <!-- OFFICIAL ACCURATE NODE.JS LOGO -->
       <g id="node-vector-logo">
         <animate attributeName="opacity" 
                  values="0; 0; 1; 1; 0; 0" 
                  keyTimes="0.00; 0.57; 0.59; 0.67; 0.69; 1.00" 
                  dur="35s" repeatCount="indefinite"/>
-        <g transform="translate(236, 235) scale(1.35)">
-          <polygon points="0,-48 42,-24 42,24 0,48 -42,24 -42,-24" fill="rgba(34, 197, 94, 0.25)" stroke="#22C55E" stroke-width="3.2"/>
-          <text x="0" y="10" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="28" font-weight="900" fill="#FFFFFF" letter-spacing="1">JS</text>
+        <g transform="translate(236, 235) scale(4.4) translate(-12, -12)">
+          <path fill="#339933" d="M11.998,24c-0.321,0-0.641-0.084-0.922-0.247l-2.936-1.737c-0.438-0.245-0.224-0.332-0.08-0.383 c0.585-0.203,0.703-0.25,1.328-0.604c0.065-0.037,0.151-0.023,0.218,0.017l2.256,1.339c0.082,0.045,0.197,0.045,0.272,0l8.795-5.076 c0.082-0.047,0.134-0.141,0.134-0.238V6.921c0-0.099-0.053-0.192-0.137-0.242l-8.791-5.072c-0.081-0.047-0.189-0.047-0.271,0 L3.075,6.68C2.99,6.729,2.936,6.825,2.936,6.921v10.15c0,0.097,0.054,0.189,0.139,0.235l2.409,1.392 c1.307,0.654,2.108-0.116,2.108-0.89V7.787c0-0.142,0.114-0.253,0.256-0.253h1.115c0.139,0,0.255,0.112,0.255,0.253v10.021 c0,1.745-0.95,2.745-2.604,2.745c-0.508,0-0.909,0-2.026-0.551L2.28,18.675c-0.57-0.329-0.922-0.945-0.922-1.604V6.921 c0-0.659,0.353-1.275,0.922-1.603l8.795-5.082c0.557-0.315,1.296-0.315,1.848,0l8.794,5.082c0.57,0.329,0.924,0.944,0.924,1.603 v10.15c0,0.659-0.354,1.273-0.924,1.604l-8.794,5.078C12.643,23.916,12.324,24,11.998,24z M19.099,13.993 c0-1.9-1.284-2.406-3.987-2.763c-2.731-0.361-3.009-0.548-3.009-1.187c0-0.528,0.235-1.233,2.258-1.233 c1.807,0,2.473,0.389,2.747,1.607c0.024,0.115,0.129,0.199,0.247,0.199h1.141c0.071,0,0.138-0.031,0.186-0.081 c0.048-0.054,0.074-0.123,0.067-0.196c-0.177-2.098-1.571-3.076-4.388-3.076c-2.508,0-4.004,1.058-4.004,2.833 c0,1.925,1.488,2.457,3.895,2.695c2.88,0.282,3.103,0.703,3.103,1.269c0,0.983-0.789,1.402-2.642,1.402 c-2.327,0-2.839-0.584-3.011-1.742c-0.02-0.124-0.126-0.215-0.253-0.215h-1.137c-0.141,0-0.254,0.112-0.254,0.253 c0,1.482,0.806,3.248,4.655,3.248C17.501,17.007,19.099,15.91,19.099,13.993z"/>
         </g>
       </g>
 
-      <text x="236" y="352" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="900" fill="#22C55E" letter-spacing="2">NODE.JS &amp; EXPRESS</text>
+      <text x="236" y="352" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="900" fill="#339933" letter-spacing="2">NODE.JS &amp; EXPRESS</text>
       <text x="236" y="373" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#0F172A" letter-spacing="0.5">Node.js, FastAPI, Django, Express</text>
-      <line x1="64" y1="388" x2="408" y2="388" stroke="rgba(34, 197, 94, 0.3)" stroke-width="1"/>
+      <line x1="64" y1="388" x2="408" y2="388" stroke="rgba(51, 153, 51, 0.3)" stroke-width="1"/>
 
       <g transform="translate(52, 400)">
-        <rect x="0" y="0" width="114" height="40" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="rgba(34, 197, 94, 0.4)" stroke-width="1"/>
+        <rect x="0" y="0" width="114" height="40" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="rgba(51, 153, 51, 0.4)" stroke-width="1"/>
         <text x="10" y="16" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="700" fill="#475569">ARCHITECTURE</text>
-        <text x="10" y="30" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800" fill="#22C55E">Async Event Loop</text>
+        <text x="10" y="30" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800" fill="#339933">Async Event Loop</text>
 
         <rect x="127" y="0" width="114" height="40" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="rgba(56, 189, 248, 0.4)" stroke-width="1"/>
         <text x="10" y="16" transform="translate(127, 0)" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="700" fill="#475569">API FRAMEWORK</text>
@@ -613,12 +583,13 @@
         <text x="108" y="21" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="800" fill="#0F172A">High-Throughput IO • JWT Auth • Middleware</text>
       </g>
 
-      <rect x="52" y="534" width="368" height="28" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="#22C55E" stroke-width="1"/>
-      <text x="236" y="552" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="800" fill="#22C55E" letter-spacing="1.5">PIXEL SYNTHESIS // NODE.JS 100% READY ✓</text>
+      <rect x="52" y="534" width="368" height="28" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="#339933" stroke-width="1"/>
+      <text x="236" y="552" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="800" fill="#339933" letter-spacing="1.5">PIXEL SYNTHESIS // NODE.JS 100% READY ✓</text>
     </g>
 
     <!-- ============================================================ -->
     <!-- PHASE 5: TYPESCRIPT & C++ (24.5s - 29.5s)                    -->
+    <!-- Official TypeScript Shield & C++ Emblem Paths                -->
     <!-- ============================================================ -->
     <g id="ts-pixel-layer" opacity="0" clip-path="url(#visMapClip)">
       <animate attributeName="opacity" 
@@ -644,40 +615,33 @@
 
       <circle cx="236" cy="235" r="95" fill="url(#tsBackdropGlow)"/>
 
-      <!-- CRISP PIXEL MATRIX: TypeScript & C++ -->
+      <!-- PIXEL ASSEMBLY: TS & C++ -->
       <g id="ts-pixels">
         <animate attributeName="opacity" 
                  values="0; 1; 1; 0.2; 0.2; 1; 0" 
                  keyTimes="0.00; 0.02; 0.72; 0.75; 0.82; 0.83; 0.85" 
                  dur="35s" repeatCount="indefinite"/>
-        <g fill="#3178C6" stroke="rgba(255,255,255,0.4)" stroke-width="0.5">
-          <rect x="180" y="185" width="112" height="12" rx="2"/>
-          <rect x="180" y="275" width="112" height="12" rx="2"/>
-          <rect x="180" y="185" width="12" height="102" rx="2"/>
-          <rect x="280" y="185" width="12" height="102" rx="2"/>
-          <g fill="#FFFFFF">
-            <rect x="202" y="212" width="30" height="8" rx="1"/>
-            <rect x="213" y="212" width="8" height="42" rx="1"/>
-            <rect x="242" y="212" width="28" height="8" rx="1"/>
-            <rect x="242" y="212" width="8" height="22" rx="1"/>
-            <rect x="242" y="228" width="28" height="8" rx="1"/>
-            <rect x="262" y="234" width="8" height="20" rx="1"/>
-            <rect x="242" y="248" width="28" height="8" rx="1"/>
-          </g>
-          <rect x="285" y="180" width="30" height="14" rx="3" fill="#00599C"/>
+        <g stroke="rgba(255,255,255,0.4)" stroke-width="0.5">
+          <rect x="180" y="200" width="48" height="48" rx="4" fill="#3178C6"/>
+          <rect x="245" y="200" width="48" height="48" rx="4" fill="#00599C"/>
         </g>
       </g>
 
-      <!-- CRISP VECTOR LOGO: TypeScript Shield -->
+      <!-- OFFICIAL ACCURATE TYPESCRIPT & C++ LOGOS -->
       <g id="ts-vector-logo">
         <animate attributeName="opacity" 
                  values="0; 0; 1; 1; 0; 0" 
                  keyTimes="0.00; 0.72; 0.74; 0.82; 0.84; 1.00" 
                  dur="35s" repeatCount="indefinite"/>
-        <g transform="translate(236, 235) scale(2.8) translate(-16, -16)">
-          <rect width="32" height="32" rx="5" fill="#3178C6"/>
-          <path fill="#FFFFFF" d="M11 12H6v-2.5h12.5V12H13.5v13H11V12z"/>
-          <path fill="#FFFFFF" d="M25.5 14.5c-1.4-.8-2.8-1.1-4.2-1.1-1.4 0-2.3.5-2.3 1.5 0 1 .9 1.5 2.8 2.2 3.1 1.1 4.7 2.4 4.7 4.9 0 3-2.4 4.9-6.3 4.9-1.9 0-3.6-.4-5-1.3l1-2.6c1.4.9 2.8 1.3 4.1 1.3 1.6 0 2.6-.7 2.6-1.7 0-1-.8-1.5-2.8-2.3-3.1-1.2-4.7-2.4-4.7-4.7 0-2.9 2.3-4.6 5.8-4.6 1.7 0 3.2.3 4.5 1l-.8 2.7z"/>
+        <g transform="translate(236, 235)">
+          <!-- TypeScript official badge -->
+          <g transform="translate(-52, -26) scale(2.2)">
+            <path fill="#3178C6" d="M1.125 0C.502 0 0 .502 0 1.125v21.75C0 23.498.502 24 1.125 24h21.75c.623 0 1.125-.502 1.125-1.125V1.125C24 .502 23.498 0 22.875 0zm17.363 9.75c.612 0 1.154.037 1.627.111a6.38 6.38 0 0 1 1.306.34v2.458a3.95 3.95 0 0 0-.643-.361 5.093 5.093 0 0 0-.717-.26 5.453 5.453 0 0 0-1.426-.2c-.3 0-.573.028-.819.086a2.1 2.1 0 0 0-.623.242c-.17.104-.3.229-.393.374a.888.888 0 0 0-.14.49c0 .196.053.373.156.529.104.156.252.304.443.444s.423.276.696.41c.273.135.582.274.926.416.47.197.892.407 1.266.628.374.222.695.473.963.753.268.279.472.598.614.957.142.359.214.776.214 1.253 0 .657-.125 1.21-.373 1.656a3.033 3.033 0 0 1-1.012 1.085 4.38 4.38 0 0 1-1.487.596c-.566.12-1.163.18-1.79.18a9.916 9.916 0 0 1-1.84-.164 5.544 5.544 0 0 1-1.512-.493v-2.63a5.033 5.033 0 0 0 3.237 1.2c.333 0 .624-.03.872-.09.249-.06.456-.144.623-.25.166-.108.29-.234.373-.38a1.023 1.023 0 0 0-.074-1.089 2.12 2.12 0 0 0-.537-.5 5.597 5.597 0 0 0-.807-.444 27.72 27.72 0 0 0-1.007-.436c-.918-.383-1.602-.852-2.053-1.405-.45-.553-.676-1.222-.676-2.005 0-.614.123-1.141.369-1.582.246-.441.58-.804 1.004-1.089a4.494 4.494 0 0 1 1.47-.629 7.536 7.536 0 0 1 1.77-.201zm-15.113.188h9.563v2.166H9.506v9.646H6.789v-9.646H3.375z"/>
+          </g>
+          <!-- C++ official emblem -->
+          <g transform="translate(4, -26) scale(2.2)">
+            <path fill="#00599C" d="M22.394 6c-.167-.29-.398-.543-.652-.69L12.926.22c-.509-.294-1.34-.294-1.848 0L2.26 5.31c-.508.293-.923 1.013-.923 1.6v10.18c0 .294.104.62.271.91.167.29.398.543.652.69l8.816 5.09c.508.293 1.34.293 1.848 0l8.816-5.09c.254-.147.485-.4.652-.69.167-.29.27-.616.27-.91V6.91c.003-.294-.1-.62-.268-.91zM12 19.11c-3.92 0-7.109-3.19-7.109-7.11 0-3.92 3.19-7.11 7.11-7.11a7.133 7.133 0 016.156 3.553l-3.076 1.78a3.567 3.567 0 00-3.08-1.78A3.56 3.56 0 008.444 12 3.56 3.56 0 0012 15.555a3.57 3.57 0 003.08-1.778l3.078 1.78A7.135 7.135 0 0112 19.11zm7.11-6.715h-.79v.79h-.79v-.79h-.79v-.79h.79v-.79h.79v.79h.79zm2.962 0h-.79v.79h-.79v-.79h-.79v-.79h.79v-.79h.79v.79h.79z"/>
+          </g>
         </g>
       </g>
 
@@ -711,6 +675,7 @@
 
     <!-- ============================================================ -->
     <!-- PHASE 6: POSTGRESQL & DOCKER (29.5s - 35s)                   -->
+    <!-- Official PostgreSQL Elephant & Docker Whale Paths            -->
     <!-- ============================================================ -->
     <g id="postgres-pixel-layer" opacity="0" clip-path="url(#visMapClip)">
       <animate attributeName="opacity" 
@@ -736,44 +701,33 @@
 
       <circle cx="236" cy="235" r="95" fill="url(#postgresBackdropGlow)"/>
 
-      <!-- CRISP PIXEL MATRIX: PostgreSQL Slonik Elephant -->
+      <!-- PIXEL ASSEMBLY: Elephant + Containers -->
       <g id="postgres-pixels">
         <animate attributeName="opacity" 
                  values="0; 1; 1; 0.2; 0.2; 1; 0" 
                  keyTimes="0.00; 0.02; 0.86; 0.89; 0.96; 0.97; 0.99" 
                  dur="35s" repeatCount="indefinite"/>
-        <g fill="#60A5FA" stroke="rgba(255,255,255,0.4)" stroke-width="0.5">
-          <rect x="210" y="175" width="50" height="24" rx="4"/>
-          <rect x="195" y="190" width="25" height="35" rx="3"/>
-          <rect x="250" y="190" width="30" height="40" rx="3"/>
-          <rect x="215" y="195" width="40" height="45" rx="4"/>
-          <rect x="230" y="240" width="12" height="30" rx="3"/>
-          <rect x="220" y="265" width="16" height="10" rx="2"/>
-          <rect x="218" y="238" width="6" height="14" rx="1" fill="#FFFFFF"/>
-          <rect x="248" y="238" width="6" height="14" rx="1" fill="#FFFFFF"/>
-          <rect x="222" y="195" width="5" height="5" fill="#FFFFFF"/>
-          <rect x="245" y="195" width="5" height="5" fill="#FFFFFF"/>
+        <g stroke="rgba(255,255,255,0.4)" stroke-width="0.5">
+          <rect x="175" y="200" width="50" height="40" rx="4" fill="#336791"/>
+          <rect x="245" y="200" width="50" height="40" rx="4" fill="#0284C7"/>
         </g>
       </g>
 
-      <!-- CRISP VECTOR LOGO: PostgreSQL Elephant Slonik Silhouette -->
+      <!-- OFFICIAL ACCURATE POSTGRESQL & DOCKER LOGOS -->
       <g id="postgres-vector-logo">
         <animate attributeName="opacity" 
                  values="0; 0; 1; 1; 0; 0" 
                  keyTimes="0.00; 0.86; 0.88; 0.96; 0.98; 1.00" 
                  dur="35s" repeatCount="indefinite"/>
-        <g transform="translate(236, 235) scale(1.15)">
-          <path fill="#336791" stroke="#60A5FA" stroke-width="2.2"
-                d="M -30 -35 C -25 -45, -5 -50, 0 -50 C 5 -50, 25 -45, 30 -35 C 45 -30, 52 -10, 48 15 C 45 30, 32 40, 22 42 C 16 55, 12 70, 8 72 C 2 74, -4 68, -4 55 C -6 45, -12 44, -18 42 C -30 40, -45 30, -48 15 C -52 -10, -45 -30, -30 -35 Z"/>
-          <path d="M -32 -20 C -42 -5, -40 20, -25 30" fill="none" stroke="#60A5FA" stroke-width="1.8" opacity="0.8"/>
-          <path d="M 32 -20 C 42 -5, 40 20, 25 30" fill="none" stroke="#60A5FA" stroke-width="1.8" opacity="0.8"/>
-          <path d="M -16 28 C -18 38, -26 44, -30 42 C -30 36, -20 28, -14 24 Z" fill="#FFFFFF"/>
-          <path d="M 16 28 C 18 38, 26 44, 30 42 C 30 36, 20 28, 14 24 Z" fill="#FFFFFF"/>
-          <path d="M -8 -15 C -8 15, -4 48, 2 52 C 6 48, 8 15, 8 -15" fill="rgba(96, 165, 250, 0.25)" stroke="#60A5FA" stroke-width="1.5"/>
-          <circle cx="-16" cy="-12" r="3.2" fill="#FFFFFF"/>
-          <circle cx="16" cy="-12" r="3.2" fill="#FFFFFF"/>
-          <circle cx="-16" cy="-12" r="1.5" fill="#0A101F"/>
-          <circle cx="16" cy="-12" r="1.5" fill="#0A101F"/>
+        <g transform="translate(236, 235)">
+          <!-- PostgreSQL official Elephant Slonik -->
+          <g transform="translate(-56, -26) scale(2.2)">
+            <path fill="#336791" d="M23.5594 14.7228a.5269.5269 0 0 0-.0563-.1191c-.139-.2632-.4768-.3418-1.0074-.2321-1.6533.3411-2.2935.1312-2.5256-.0191 1.342-2.0482 2.445-4.522 3.0411-6.8297.2714-1.0507.7982-3.5237.1222-4.7316a1.5641 1.5641 0 0 0-.1509-.235C21.6931.9086 19.8007.0248 17.5099.0005c-1.4947-.0158-2.7705.3461-3.1161.4794a9.449 9.449 0 0 0-.5159-.0816 8.044 8.044 0 0 0-1.3114-.1278c-1.1822-.0184-2.2038.2642-3.0498.8406-.8573-.3211-4.7888-1.645-7.2219.0788C.9359 2.1526.3086 3.8733.4302 6.3043c.0409.818.5069 3.334 1.2423 5.7436.4598 1.5065.9387 2.7019 1.4334 3.582.553.9942 1.1259 1.5933 1.7143 1.7895.4474.1491 1.1327.1441 1.8581-.7279.8012-.9635 1.5903-1.8258 1.9446-2.2069.4351.2355.9064.3625 1.39.3772a.0569.0569 0 0 0 .0004.0041 11.0312 11.0312 0 0 0-.2472.3054c-.3389.4302-.4094.5197-1.5002.7443-.3102.064-1.1344.2339-1.1464.8115-.0025.1224.0329.2309.0919.3268.2269.4231.9216.6097 1.015.6331 1.3345.3335 2.5044.092 3.3714-.6787-.017 2.231.0775 4.4174.3454 5.0874.2212.5529.7618 1.9045 2.4692 1.9043.2505 0 .5263-.0291.8296-.0941 1.7819-.3821 2.5557-1.1696 2.855-2.9059.1503-.8707.4016-2.8753.5388-4.1012.0169-.0703.0357-.1207.057-.1362.0007-.0005.0697-.0471.4272.0307a.3673.3673 0 0 0 .0443.0068l.2539.0223.0149.001c.8468.0384 1.9114-.1426 2.5312-.4308.6438-.2988 1.8057-1.0323 1.5951-1.6698zM2.371 11.8765c-.7435-2.4358-1.1779-4.8851-1.2123-5.5719-.1086-2.1714.4171-3.6829 1.5623-4.4927 1.8367-1.2986 4.8398-.5408 6.108-.13-.0032.0032-.0066.0061-.0098.0094-2.0238 2.044-1.9758 5.536-1.9708 5.7495-.0002.0823.0066.1989.0162.3593.0348.5873.0996 1.6804-.0735 2.9184-.1609 1.1504.1937 2.2764.9728 3.0892.0806.0841.1648.1631.2518.2374-.3468.3714-1.1004 1.1926-1.9025 2.1576-.5677.6825-.9597.5517-1.0886.5087-.3919-.1307-.813-.5871-1.2381-1.3223-.4796-.839-.9635-2.0317-1.4155-3.5126zm6.0072 5.0871c-.1711-.0428-.3271-.1132-.4322-.1772.0889-.0394.2374-.0902.4833-.1409 1.2833-.2641 1.4815-.4506 1.9143-1.0002.0992-.126.2116-.2687.3673-.4426a.3549.3549 0 0 0 .0737-.1298c.1708-.1513.2724-.1099.4369-.0417.156.0646.3078.26.3695.4752.0291.1016.0619.2945-.0452.4444-.9043 1.2658-2.2216 1.2494-3.1676 1.0128zm2.094-3.988-.0525.141c-.133.3566-.2567.6881-.3334 1.003-.6674-.0021-1.3168-.2872-1.8105-.8024-.6279-.6551-.9131-1.5664-.7825-2.5004.1828-1.3079.1153-2.4468.079-3.0586-.005-.0857-.0095-.1607-.0122-.2199.2957-.2621 1.6659-.9962 2.6429-.7724.4459.1022.7176.4057.8305.928.5846 2.7038.0774 3.8307-.3302 4.7363-.084.1866-.1633.3629-.2311.5454zm7.3637 4.5725c-.0169.1768-.0358.376-.0618.5959l-.146.4383a.3547.3547 0 0 0-.0182.1077c-.0059.4747-.054.6489-.115.8693-.0634.2292-.1353.4891-.1794 1.0575-.11 1.4143-.8782 2.2267-2.4172 2.5565-1.5155.3251-1.7843-.4968-2.0212-1.2217a6.5824 6.5824 0 0 0-.0769-.2266c-.2154-.5858-.1911-1.4119-.1574-2.5551.0165-.5612-.0249-1.9013-.3302-2.6462.0044-.2932.0106-.5909.019-.8918a.3529.3529 0 0 0-.0153-.1126 1.4927 1.4927 0 0 0-.0439-.208c-.1226-.4283-.4213-.7866-.7797-.9351-.1424-.059-.4038-.1672-.7178-.0869.067-.276.1831-.5875.309-.9249l.0529-.142c.0595-.16.134-.3257.213-.5012.4265-.9476 1.0106-2.2453.3766-5.1772-.2374-1.0981-1.0304-1.6343-2.2324-1.5098-.7207.0746-1.3799.3654-1.7088.5321a5.6716 5.6716 0 0 0-.1958.1041c.0918-1.1064.4386-3.1741 1.7357-4.4823a4.0306 4.0306 0 0 1 .3033-.276.3532.3532 0 0 0 .1447-.0644c.7524-.5706 1.6945-.8506 2.802-.8325.4091.0067.8017.0339 1.1742.081 1.939.3544 3.2439 1.4468 4.0359 2.3827.8143.9623 1.2552 1.9315 1.4312 2.4543-1.3232-.1346-2.2234.1268-2.6797.779-.9926 1.4189.543 4.1729 1.2811 5.4964.1353.2426.2522.4522.2889.5413.2403.5825.5515.9713.7787 1.2552.0696.087.1372.1714.1885.245-.4008.1155-1.1208.3825-1.0552 1.717-.0123.1563-.0423.4469-.0834.8148-.0461.2077-.0702.4603-.0994.7662zm.8905-1.6211c-.0405-.8316.2691-.9185.5967-1.0105a2.8566 2.8566 0 0 0 .135-.0406 1.202 1.202 0 0 0 .1342.103c.5703.3765 1.5823.4213 3.0068.1344-.2016.1769-.5189.3994-.9533.6011-.4098.1903-1.0957.333-1.7473.3636-.7197.0336-1.0859-.0807-1.1721-.151zm.5695-9.2712c-.0059.3508-.0542.6692-.1054 1.0017-.055.3576-.112.7274-.1264 1.1762-.0142.4368.0404.8909.0932 1.3301.1066.887.216 1.8003-.2075 2.7014a3.5272 3.5272 0 0 1-.1876-.3856c-.0527-.1276-.1669-.3326-.3251-.6162-.6156-1.1041-2.0574-3.6896-1.3193-4.7446.3795-.5427 1.3408-.5661 2.1781-.463zm.2284 7.0137a12.3762 12.3762 0 0 0-.0853-.1074l-.0355-.0444c.7262-1.1995.5842-2.3862.4578-3.4385-.0519-.4318-.1009-.8396-.0885-1.2226.0129-.4061.0666-.7543.1185-1.0911.0639-.415.1288-.8443.1109-1.3505.0134-.0531.0188-.1158.0118-.1902-.0457-.4855-.5999-1.938-1.7294-3.253-.6076-.7073-1.4896-1.4972-2.6889-2.0395.5251-.1066 1.2328-.2035 2.0244-.1859 2.0515.0456 3.6746.8135 4.8242 2.2824a.908.908 0 0 1 .0667.1002c.7231 1.3556-.2762 6.2751-2.9867 10.5405zm-8.8166-6.1162c-.025.1794-.3089.4225-.6211.4225a.5821.5821 0 0 1-.0809-.0056c-.1873-.026-.3765-.144-.5059-.3156-.0458-.0605-.1203-.178-.1055-.2844.0055-.0401.0261-.0985.0925-.1488.1182-.0894.3518-.1226.6096-.0867.3163.0441.6426.1938.6113.4186zm7.9305-.4114c.0111.0792-.049.201-.1531.3102-.0683.0717-.212.1961-.4079.2232a.5456.5456 0 0 1-.075.0052c-.2935 0-.5414-.2344-.5607-.3717-.024-.1765.2641-.3106.5611-.352.297-.0414.6111.0088.6356.1851z"/>
+          </g>
+          <!-- Docker official Whale -->
+          <g transform="translate(6, -26) scale(2.2)">
+            <path fill="#0284C7" d="M13.983 11.078h2.119a.186.186 0 00.186-.185V9.006a.186.186 0 00-.186-.186h-2.119a.185.185 0 00-.185.185v1.888c0 .102.083.185.185.185m-2.954-5.43h2.118a.186.186 0 00.186-.186V3.574a.186.186 0 00-.186-.185h-2.118a.185.185 0 00-.185.185v1.888c0 .102.082.185.185.185m0 2.716h2.118a.187.187 0 00.186-.186V6.29a.186.186 0 00-.186-.185h-2.118a.185.185 0 00-.185.185v1.887c0 .102.082.185.185.186m-2.93 0h2.12a.186.186 0 00.184-.186V6.29a.185.185 0 00-.185-.185H8.1a.185.185 0 00-.185.185v1.887c0 .102.083.185.185.186m-2.964 0h2.119a.186.186 0 00.185-.186V6.29a.185.185 0 00-.185-.185H5.136a.186.186 0 00-.186.185v1.887c0 .102.084.185.186.186m5.893 2.715h2.118a.186.186 0 00.186-.185V9.006a.186.186 0 00-.186-.186h-2.118a.185.185 0 00-.185.185v1.888c0 .102.082.185.185.185m-2.93 0h2.12a.185.185 0 00.184-.185V9.006a.185.185 0 00-.184-.186h-2.12a.185.185 0 00-.184.185v1.888c0 .102.083.185.185.185m-2.964 0h2.119a.185.185 0 00.185-.185V9.006a.185.185 0 00-.184-.186h-2.12a.186.186 0 00-.186.186v1.887c0 .102.084.185.186.185m-2.92 0h2.12a.185.185 0 00.184-.185V9.006a.185.185 0 00-.184-.186h-2.12a.185.185 0 00-.184.185v1.888c0 .102.082.185.185.185M23.763 9.89c-.065-.051-.672-.51-1.954-.51-.338.001-.676.03-1.01.087-.248-1.7-1.653-2.53-1.716-2.566l-.344-.199-.226.327c-.284.438-.49.922-.612 1.43-.23.97-.09 1.882.403 2.661-.595.332-1.55.413-1.744.42H.751a.751.751 0 00-.75.748 11.376 11.376 0 00.692 4.062c.545 1.428 1.355 2.48 2.41 3.124 1.18.723 3.1 1.137 5.275 1.137.983.003 1.963-.086 2.93-.266a12.248 12.248 0 003.823-1.389c.98-.567 1.86-1.288 2.61-2.136 1.252-1.418 1.998-2.997 2.553-4.4h.221c1.372 0 2.215-.549 2.68-1.009.309-.293.55-.65.707-1.046l.098-.288Z"/>
+          </g>
         </g>
       </g>
 
