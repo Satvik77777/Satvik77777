@@ -1,8 +1,8 @@
 <!-- ===== THEME-AWARE HERO BANNER ===== -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/dark.svg?v=1789121107">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/light.svg?v=1789121107">
-  <img alt="Satvik - Software Engineer" src="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/dark.svg?v=1789121107" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/dark.svg?v=1789121648">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/light.svg?v=1789121648">
+  <img alt="Satvik - Software Engineer" src="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/dark.svg?v=1789121648" width="100%">
 </picture>
 
 <br/>
