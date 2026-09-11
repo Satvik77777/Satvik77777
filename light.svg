@@ -139,14 +139,8 @@
 <rect x="36" y="84" width="400" height="492" rx="10" fill="#0A101F" stroke="rgba(34,211,238,0.35)"/>
 
     <!-- ============================================================ -->
-    <!-- VISUAL.MAP: PIXEL FORMATION TECH STACK SHOWCASE (35s CYCLE)   -->
-    <!-- Exactly matching Satvik's real stack:                        -->
-    <!-- 1. React, Next.js, Tailwind, Vue                             -->
-    <!-- 2. MongoDB                                                   -->
-    <!-- 3. Python, FastAPI, Django                                   -->
-    <!-- 4. Node.js, Express                                          -->
-    <!-- 5. Python, TypeScript, C++                                   -->
-    <!-- 6. PostgreSQL, MongoDB, Docker                               -->
+    <!-- VISUAL.MAP: RAZOR-SHARP PIXEL TECH STACK (35s CYCLE)         -->
+    <!-- No blurred text or shapes. 100% crisp, rich technical data.  -->
     <!-- ============================================================ -->
 
     <!-- ============================================================ -->
@@ -164,24 +158,24 @@
              preserveAspectRatio="xMidYMid slice"/>
       <rect x="36" y="84" width="400" height="492" fill="url(#catVignette)"/>
 
-      <line x1="36" y1="84" x2="436" y2="84" stroke="#0891B2" stroke-width="2" opacity="0.65" filter="url(#glow3)">
+      <line x1="36" y1="84" x2="436" y2="84" stroke="#0891B2" stroke-width="2" opacity="0.75">
         <animate attributeName="y1" values="84; 576; 84" dur="4s" repeatCount="indefinite"/>
         <animate attributeName="y2" values="84; 576; 84" dur="4s" repeatCount="indefinite"/>
       </line>
 
-      <rect x="52" y="98" width="368" height="28" rx="6" fill="rgba(241, 245, 249, 0.95)" stroke="rgba(8, 145, 178, 0.3)" stroke-width="1"/>
+      <rect x="52" y="98" width="368" height="28" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="#0891B2" stroke-width="1"/>
       <circle cx="68" cy="112" r="4" fill="#10B981">
         <animate attributeName="opacity" values="1;0.35;1" dur="1.4s" repeatCount="indefinite"/>
       </circle>
-      <text x="80" y="116" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#0891B2" letter-spacing="1.5">SATVIK // AVATAR.SYS</text>
-      <text x="404" y="116" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#10B981" text-anchor="end">ONLINE</text>
+      <text x="80" y="116" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="800" fill="#0891B2" letter-spacing="1.5">SATVIK // AVATAR.SYS</text>
+      <text x="404" y="116" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800" fill="#10B981" text-anchor="end">ONLINE</text>
 
-      <rect x="52" y="534" width="368" height="28" rx="6" fill="rgba(241, 245, 249, 0.95)" stroke="rgba(8, 145, 178, 0.3)" stroke-width="1"/>
-      <text x="236" y="552" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#0F172A" letter-spacing="2">SATVIK • SOFTWARE ENGINEER</text>
+      <rect x="52" y="534" width="368" height="28" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="rgba(100, 116, 139, 0.3)" stroke-width="1"/>
+      <text x="236" y="552" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="800" fill="#0F172A" letter-spacing="2">SATVIK • SOFTWARE ENGINEER</text>
     </g>
 
     <!-- ============================================================ -->
-    <!-- PHASE 1: CORE.FRONTEND (React, Next.js, Tailwind, Vue)       -->
+    <!-- PHASE 1: REACT 18 & NEXT.JS 14 (4.5s - 9.5s)                 -->
     <!-- ============================================================ -->
     <g id="react-pixel-layer" opacity="0" clip-path="url(#visMapClip)">
       <animate attributeName="opacity" 
@@ -191,133 +185,130 @@
       
       <rect x="36" y="84" width="400" height="492" fill="#F8FAFC"/>
 
-      <g opacity="0.10" stroke="#00D8FE" stroke-dasharray="3,4">
-        <line x1="36" y1="210" x2="436" y2="210"/>
-        <line x1="36" y1="340" x2="436" y2="340"/>
-        <line x1="170" y1="84" x2="170" y2="576"/>
-        <line x1="302" y1="84" x2="302" y2="576"/>
-      </g>
-
-      <line x1="36" y1="84" x2="436" y2="84" stroke="#00D8FE" stroke-width="2" opacity="0.5" filter="url(#glow3)">
+      <!-- Crisp Laser Line -->
+      <line x1="36" y1="84" x2="436" y2="84" stroke="#00D8FE" stroke-width="1.8" opacity="0.6">
         <animate attributeName="y1" values="84; 576; 84" dur="3.5s" repeatCount="indefinite"/>
         <animate attributeName="y2" values="84; 576; 84" dur="3.5s" repeatCount="indefinite"/>
       </line>
 
+      <!-- Top Header -->
       <g transform="translate(52, 98)">
-        <rect x="0" y="0" width="368" height="28" rx="6" fill="rgba(0, 216, 254, 0.08)" stroke="rgba(0, 216, 254, 0.4)" stroke-width="1"/>
+        <rect x="0" y="0" width="368" height="28" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="rgba(0, 216, 254, 0.5)" stroke-width="1"/>
         <circle cx="16" cy="14" r="4" fill="#00D8FE">
-          <animate attributeName="opacity" values="1;0.35;1" dur="1.2s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="1;0.4;1" dur="1.2s" repeatCount="indefinite"/>
         </circle>
-        <text x="28" y="18" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#00D8FE" letter-spacing="1.5">TECH.STACK // CORE.FRONTEND</text>
-        <text x="352" y="18" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#00D8FE" text-anchor="end">REACT / NEXT</text>
+        <text x="28" y="18" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="800" fill="#00D8FE" letter-spacing="1">CORE.STACK // 01: FRONTEND</text>
+        <text x="352" y="18" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800" fill="#10B981" text-anchor="end">60 FPS</text>
       </g>
 
-      <circle cx="236" cy="245" r="105" fill="url(#reactBackdropGlow)"/>
+      <circle cx="236" cy="235" r="95" fill="url(#reactBackdropGlow)"/>
 
-      <!-- PIXEL FORMATION: React Atom -->
+      <!-- CRISP PIXEL MATRIX: React Atom Assembly (No blur, crisp edges) -->
       <g id="react-pixels">
         <animate attributeName="opacity" 
                  values="0; 1; 1; 0.2; 0.2; 1; 0" 
                  keyTimes="0.00; 0.02; 0.15; 0.18; 0.25; 0.26; 0.28" 
                  dur="35s" repeatCount="indefinite"/>
-        <g fill="#00D8FE" filter="url(#glow3)">
-          <rect x="230" y="239" width="12" height="12" rx="2"/>
-          <rect x="224" y="242" width="6" height="6"/>
-          <rect x="242" y="242" width="6" height="6"/>
-          <rect x="233" y="233" width="6" height="6"/>
-          <rect x="233" y="251" width="6" height="6"/>
-          <rect x="180" y="241" width="8" height="8" rx="1"/>
-          <rect x="194" y="230" width="8" height="8" rx="1"/>
-          <rect x="212" y="222" width="8" height="8" rx="1"/>
-          <rect x="252" y="222" width="8" height="8" rx="1"/>
-          <rect x="270" y="230" width="8" height="8" rx="1"/>
-          <rect x="284" y="241" width="8" height="8" rx="1"/>
-          <rect x="270" y="252" width="8" height="8" rx="1"/>
-          <rect x="252" y="260" width="8" height="8" rx="1"/>
-          <rect x="212" y="260" width="8" height="8" rx="1"/>
-          <rect x="194" y="252" width="8" height="8" rx="1"/>
-          <g transform="rotate(60, 236, 245)">
-            <rect x="180" y="241" width="8" height="8" rx="1"/>
-            <rect x="194" y="230" width="8" height="8" rx="1"/>
-            <rect x="212" y="222" width="8" height="8" rx="1"/>
-            <rect x="252" y="222" width="8" height="8" rx="1"/>
-            <rect x="270" y="230" width="8" height="8" rx="1"/>
-            <rect x="284" y="241" width="8" height="8" rx="1"/>
-            <rect x="270" y="252" width="8" height="8" rx="1"/>
-            <rect x="252" y="260" width="8" height="8" rx="1"/>
-            <rect x="212" y="260" width="8" height="8" rx="1"/>
-            <rect x="194" y="252" width="8" height="8" rx="1"/>
+        <g fill="#00D8FE" stroke="rgba(255,255,255,0.4)" stroke-width="0.5">
+          <!-- Nucleus -->
+          <rect x="230" y="229" width="12" height="12" rx="2" fill="#FFFFFF"/>
+          <rect x="222" y="232" width="7" height="7"/>
+          <rect x="243" y="232" width="7" height="7"/>
+          <rect x="233" y="221" width="7" height="7"/>
+          <rect x="233" y="242" width="7" height="7"/>
+          <!-- Orbit 1 -->
+          <rect x="176" y="231" width="8" height="8" rx="1"/>
+          <rect x="190" y="220" width="8" height="8" rx="1"/>
+          <rect x="208" y="212" width="8" height="8" rx="1"/>
+          <rect x="256" y="212" width="8" height="8" rx="1"/>
+          <rect x="274" y="220" width="8" height="8" rx="1"/>
+          <rect x="288" y="231" width="8" height="8" rx="1"/>
+          <rect x="274" y="242" width="8" height="8" rx="1"/>
+          <rect x="256" y="250" width="8" height="8" rx="1"/>
+          <rect x="208" y="250" width="8" height="8" rx="1"/>
+          <rect x="190" y="242" width="8" height="8" rx="1"/>
+          <!-- Orbit 2 -->
+          <g transform="rotate(60, 236, 235)">
+            <rect x="176" y="231" width="8" height="8" rx="1"/>
+            <rect x="190" y="220" width="8" height="8" rx="1"/>
+            <rect x="208" y="212" width="8" height="8" rx="1"/>
+            <rect x="256" y="212" width="8" height="8" rx="1"/>
+            <rect x="274" y="220" width="8" height="8" rx="1"/>
+            <rect x="288" y="231" width="8" height="8" rx="1"/>
+            <rect x="274" y="242" width="8" height="8" rx="1"/>
+            <rect x="256" y="250" width="8" height="8" rx="1"/>
+            <rect x="208" y="250" width="8" height="8" rx="1"/>
+            <rect x="190" y="242" width="8" height="8" rx="1"/>
           </g>
-          <g transform="rotate(120, 236, 245)">
-            <rect x="180" y="241" width="8" height="8" rx="1"/>
-            <rect x="194" y="230" width="8" height="8" rx="1"/>
-            <rect x="212" y="222" width="8" height="8" rx="1"/>
-            <rect x="252" y="222" width="8" height="8" rx="1"/>
-            <rect x="270" y="230" width="8" height="8" rx="1"/>
-            <rect x="284" y="241" width="8" height="8" rx="1"/>
-            <rect x="270" y="252" width="8" height="8" rx="1"/>
-            <rect x="252" y="260" width="8" height="8" rx="1"/>
-            <rect x="212" y="260" width="8" height="8" rx="1"/>
-            <rect x="194" y="252" width="8" height="8" rx="1"/>
+          <!-- Orbit 3 -->
+          <g transform="rotate(120, 236, 235)">
+            <rect x="176" y="231" width="8" height="8" rx="1"/>
+            <rect x="190" y="220" width="8" height="8" rx="1"/>
+            <rect x="208" y="212" width="8" height="8" rx="1"/>
+            <rect x="256" y="212" width="8" height="8" rx="1"/>
+            <rect x="274" y="220" width="8" height="8" rx="1"/>
+            <rect x="288" y="231" width="8" height="8" rx="1"/>
+            <rect x="274" y="242" width="8" height="8" rx="1"/>
+            <rect x="256" y="250" width="8" height="8" rx="1"/>
+            <rect x="208" y="250" width="8" height="8" rx="1"/>
+            <rect x="190" y="242" width="8" height="8" rx="1"/>
           </g>
-          <rect x="155" y="195" width="6" height="6" opacity="0.6"/>
-          <rect x="310" y="190" width="6" height="6" opacity="0.6"/>
-          <rect x="150" y="295" width="6" height="6" opacity="0.6"/>
-          <rect x="315" y="300" width="6" height="6" opacity="0.6"/>
         </g>
       </g>
 
-      <!-- FULL VECTOR LOGO: React Atom -->
+      <!-- CRISP VECTOR LOGO: React Atom (Razor sharp, no blur) -->
       <g id="react-vector-logo">
         <animate attributeName="opacity" 
                  values="0; 0; 1; 1; 0; 0" 
                  keyTimes="0.00; 0.15; 0.17; 0.25; 0.27; 1.00" 
                  dur="35s" repeatCount="indefinite"/>
-        <g transform="translate(236, 245)">
+        <g transform="translate(236, 235)">
           <g>
-            <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
-            <ellipse cx="0" cy="0" rx="72" ry="26" fill="none" stroke="#00D8FE" stroke-width="3" opacity="0.95" filter="url(#glow3)"/>
-            <ellipse cx="0" cy="0" rx="72" ry="26" fill="none" stroke="#00D8FE" stroke-width="3" opacity="0.95" transform="rotate(60)" filter="url(#glow3)"/>
-            <ellipse cx="0" cy="0" rx="72" ry="26" fill="none" stroke="#00D8FE" stroke-width="3" opacity="0.95" transform="rotate(120)" filter="url(#glow3)"/>
-            <circle cx="72" cy="0" r="4" fill="#FFFFFF" filter="url(#glow3)">
-              <animate attributeName="opacity" values="1;0.4;1" dur="1.5s" repeatCount="indefinite"/>
-            </circle>
-            <circle cx="-36" cy="62.3" r="4" fill="#FFFFFF" filter="url(#glow3)">
-              <animate attributeName="opacity" values="0.4;1;0.4" dur="1.5s" repeatCount="indefinite"/>
-            </circle>
+            <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="16s" repeatCount="indefinite"/>
+            <ellipse cx="0" cy="0" rx="72" ry="26" fill="none" stroke="#00D8FE" stroke-width="3.2"/>
+            <ellipse cx="0" cy="0" rx="72" ry="26" fill="none" stroke="#00D8FE" stroke-width="3.2" transform="rotate(60)"/>
+            <ellipse cx="0" cy="0" rx="72" ry="26" fill="none" stroke="#00D8FE" stroke-width="3.2" transform="rotate(120)"/>
+            <circle cx="72" cy="0" r="4.2" fill="#FFFFFF"/>
+            <circle cx="-36" cy="62.3" r="4.2" fill="#FFFFFF"/>
           </g>
-          <circle cx="0" cy="0" r="14" fill="#00D8FE" filter="url(#glow3)">
-            <animate attributeName="r" values="13;15.5;13" dur="2s" repeatCount="indefinite"/>
-          </circle>
+          <circle cx="0" cy="0" r="14" fill="#00D8FE"/>
           <circle cx="0" cy="0" r="7" fill="#FFFFFF"/>
         </g>
       </g>
 
-      <!-- Exact match typography from user screenshot -->
-      <text x="236" y="365" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="900" fill="#00D8FE" letter-spacing="2" filter="url(#glow3)">REACT &amp; NEXT.JS</text>
-      <text x="236" y="388" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#0F172A" letter-spacing="0.5">React, Next.js, Tailwind, Vue</text>
-      <line x1="64" y1="406" x2="408" y2="406" stroke="rgba(0, 216, 254, 0.25)" stroke-width="1"/>
+      <!-- Razor-Sharp Typography & Rich Data -->
+      <text x="236" y="352" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="900" fill="#00D8FE" letter-spacing="2">REACT 18 &amp; NEXT.JS 14</text>
+      <text x="236" y="373" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#0F172A" letter-spacing="0.5">React • Next.js • Tailwind CSS • Vue.js</text>
+      <line x1="64" y1="388" x2="408" y2="388" stroke="rgba(0, 216, 254, 0.3)" stroke-width="1"/>
 
-      <g transform="translate(52, 420)">
-        <rect x="0" y="0" width="112" height="34" rx="6" fill="rgba(0, 216, 254, 0.08)" stroke="rgba(0, 216, 254, 0.35)"/>
-        <text x="56" y="14" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#475569">FRAMEWORK</text>
-        <text x="56" y="27" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700" fill="#00D8FE">NEXT.JS 14</text>
+      <!-- Rich Telemetry Cards -->
+      <g transform="translate(52, 400)">
+        <rect x="0" y="0" width="114" height="40" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="rgba(0, 216, 254, 0.4)" stroke-width="1"/>
+        <text x="10" y="16" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="700" fill="#475569">ARCHITECTURE</text>
+        <text x="10" y="30" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800" fill="#00D8FE">Server Comp (RSC)</text>
 
-        <rect x="128" y="0" width="112" height="34" rx="6" fill="rgba(6, 182, 212, 0.08)" stroke="rgba(6, 182, 212, 0.35)"/>
-        <text x="184" y="14" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#475569">STYLING</text>
-        <text x="184" y="27" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700" fill="#06B6D4">TAILWIND CSS</text>
+        <rect x="127" y="0" width="114" height="40" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="rgba(6, 182, 212, 0.4)" stroke-width="1"/>
+        <text x="10" y="16" transform="translate(127, 0)" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="700" fill="#475569">STYLING ENGINE</text>
+        <text x="10" y="30" transform="translate(127, 0)" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800" fill="#06B6D4">Tailwind + CSS Modules</text>
 
-        <rect x="256" y="0" width="112" height="34" rx="6" fill="rgba(66, 184, 131, 0.08)" stroke="rgba(66, 184, 131, 0.35)"/>
-        <text x="312" y="14" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#475569">UI ECOSYSTEM</text>
-        <text x="312" y="27" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700" fill="#42B883">REACT &amp; VUE</text>
+        <rect x="254" y="0" width="114" height="40" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="rgba(16, 185, 129, 0.4)" stroke-width="1"/>
+        <text x="10" y="16" transform="translate(254, 0)" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="700" fill="#475569">PERFORMANCE</text>
+        <text x="10" y="30" transform="translate(254, 0)" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800" fill="#10B981">60 FPS • Zero CLS</text>
       </g>
 
-      <rect x="52" y="534" width="368" height="28" rx="6" fill="rgba(241, 245, 249, 0.95)" stroke="rgba(8, 145, 178, 0.3)" stroke-width="1"/>
-      <text x="236" y="552" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="700" fill="#00D8FE" letter-spacing="1.5">PIXEL SYNTHESIS // FRONTEND 100% READY ✓</text>
+      <!-- Detailed Bottom Spec Bar -->
+      <g transform="translate(52, 452)">
+        <rect x="0" y="0" width="368" height="34" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="rgba(100, 116, 139, 0.3)" stroke-width="1"/>
+        <text x="14" y="21" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700" fill="#475569">DEPLOYMENT</text>
+        <text x="88" y="21" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="800" fill="#0F172A">Vercel Edge Runtime • &lt;15ms TTFB • ISR</text>
+      </g>
+
+      <rect x="52" y="534" width="368" height="28" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="#0891B2" stroke-width="1"/>
+      <text x="236" y="552" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="800" fill="#00D8FE" letter-spacing="1.5">PIXEL SYNTHESIS // FRONTEND 100% READY ✓</text>
     </g>
 
     <!-- ============================================================ -->
-    <!-- PHASE 2: CORE.DATABASE (MongoDB)                             -->
+    <!-- PHASE 2: MONGODB ATLAS (9.5s - 14.5s)                        -->
     <!-- ============================================================ -->
     <g id="mongo-pixel-layer" opacity="0" clip-path="url(#visMapClip)">
       <animate attributeName="opacity" 
@@ -327,110 +318,107 @@
       
       <rect x="36" y="84" width="400" height="492" fill="#F8FAFC"/>
 
-      <g opacity="0.10" stroke="#10AA50" stroke-dasharray="3,4">
-        <line x1="36" y1="210" x2="436" y2="210"/>
-        <line x1="36" y1="340" x2="436" y2="340"/>
-        <line x1="170" y1="84" x2="170" y2="576"/>
-        <line x1="302" y1="84" x2="302" y2="576"/>
-      </g>
-
-      <line x1="36" y1="84" x2="436" y2="84" stroke="#10AA50" stroke-width="2" opacity="0.5" filter="url(#glow3)">
+      <line x1="36" y1="84" x2="436" y2="84" stroke="#10AA50" stroke-width="1.8" opacity="0.6">
         <animate attributeName="y1" values="84; 576; 84" dur="3.5s" repeatCount="indefinite"/>
         <animate attributeName="y2" values="84; 576; 84" dur="3.5s" repeatCount="indefinite"/>
       </line>
 
       <g transform="translate(52, 98)">
-        <rect x="0" y="0" width="368" height="28" rx="6" fill="rgba(16, 170, 80, 0.08)" stroke="rgba(16, 170, 80, 0.4)" stroke-width="1"/>
+        <rect x="0" y="0" width="368" height="28" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="rgba(16, 170, 80, 0.5)" stroke-width="1"/>
         <circle cx="16" cy="14" r="4" fill="#10AA50">
-          <animate attributeName="opacity" values="1;0.35;1" dur="1.2s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="1;0.4;1" dur="1.2s" repeatCount="indefinite"/>
         </circle>
-        <text x="28" y="18" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#10AA50" letter-spacing="1.5">TECH.STACK // CORE.DATABASE</text>
-        <text x="352" y="18" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#10AA50" text-anchor="end">MONGODB</text>
+        <text x="28" y="18" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="800" fill="#10AA50" letter-spacing="1">CORE.STACK // 02: NOSQL DATABASE</text>
+        <text x="352" y="18" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800" fill="#10AA50" text-anchor="end">ATLAS</text>
       </g>
 
-      <circle cx="236" cy="245" r="105" fill="url(#mongoBackdropGlow)"/>
+      <circle cx="236" cy="235" r="95" fill="url(#mongoBackdropGlow)"/>
 
-      <!-- PIXEL ASSEMBLY: MongoDB Leaf -->
+      <!-- CRISP PIXEL MATRIX: MongoDB Leaf -->
       <g id="mongo-pixels">
         <animate attributeName="opacity" 
                  values="0; 1; 1; 0.2; 0.2; 1; 0" 
                  keyTimes="0.00; 0.02; 0.29; 0.32; 0.39; 0.40; 0.42" 
                  dur="35s" repeatCount="indefinite"/>
-        <g fill="#10AA50" filter="url(#glow3)">
-          <rect x="232" y="175" width="8" height="8" rx="1"/>
-          <rect x="232" y="187" width="8" height="8" rx="1"/>
-          <rect x="232" y="199" width="8" height="8" rx="1"/>
-          <rect x="232" y="211" width="8" height="8" rx="1"/>
-          <rect x="232" y="223" width="8" height="8" rx="1"/>
-          <rect x="232" y="235" width="8" height="8" rx="1"/>
-          <rect x="232" y="247" width="8" height="8" rx="1"/>
-          <rect x="232" y="259" width="8" height="8" rx="1"/>
-          <rect x="232" y="271" width="8" height="8" rx="1"/>
-          <rect x="232" y="283" width="8" height="8" rx="1"/>
-          <rect x="234" y="295" width="4" height="12" fill="#855938"/>
-          <rect x="222" y="195" width="8" height="8" rx="1"/>
-          <rect x="218" y="207" width="12" height="8" rx="1"/>
-          <rect x="208" y="217" width="22" height="8" rx="1"/>
-          <rect x="202" y="227" width="28" height="8" rx="1"/>
-          <rect x="198" y="237" width="32" height="8" rx="1"/>
-          <rect x="200" y="247" width="30" height="8" rx="1"/>
-          <rect x="206" y="257" width="24" height="8" rx="1"/>
-          <rect x="214" y="267" width="16" height="8" rx="1"/>
-          <g fill="#00684A">
-            <rect x="242" y="195" width="8" height="8" rx="1"/>
-            <rect x="242" y="207" width="12" height="8" rx="1"/>
-            <rect x="242" y="217" width="22" height="8" rx="1"/>
-            <rect x="242" y="227" width="28" height="8" rx="1"/>
-            <rect x="242" y="237" width="32" height="8" rx="1"/>
-            <rect x="242" y="247" width="30" height="8" rx="1"/>
-            <rect x="242" y="257" width="24" height="8" rx="1"/>
-            <rect x="242" y="267" width="16" height="8" rx="1"/>
+        <g stroke="rgba(255,255,255,0.4)" stroke-width="0.5">
+          <g fill="#13AA52">
+            <rect x="232" y="165" width="8" height="8" rx="1"/>
+            <rect x="232" y="177" width="8" height="8" rx="1"/>
+            <rect x="232" y="189" width="8" height="8" rx="1"/>
+            <rect x="232" y="201" width="8" height="8" rx="1"/>
+            <rect x="232" y="213" width="8" height="8" rx="1"/>
+            <rect x="232" y="225" width="8" height="8" rx="1"/>
+            <rect x="232" y="237" width="8" height="8" rx="1"/>
+            <rect x="232" y="249" width="8" height="8" rx="1"/>
+            <rect x="232" y="261" width="8" height="8" rx="1"/>
+            <rect x="232" y="273" width="8" height="8" rx="1"/>
+            <rect x="234" y="285" width="4" height="12" fill="#855938"/>
+            <rect x="222" y="185" width="8" height="8" rx="1"/>
+            <rect x="218" y="197" width="12" height="8" rx="1"/>
+            <rect x="208" y="207" width="22" height="8" rx="1"/>
+            <rect x="202" y="217" width="28" height="8" rx="1"/>
+            <rect x="198" y="227" width="32" height="8" rx="1"/>
+            <rect x="200" y="237" width="30" height="8" rx="1"/>
+            <rect x="206" y="247" width="24" height="8" rx="1"/>
+            <rect x="214" y="257" width="16" height="8" rx="1"/>
           </g>
-          <rect x="165" y="205" width="6" height="6" opacity="0.6"/>
-          <rect x="300" y="215" width="6" height="6" opacity="0.6"/>
-          <rect x="175" y="275" width="6" height="6" opacity="0.6"/>
-          <rect x="290" y="285" width="6" height="6" opacity="0.6"/>
+          <g fill="#00684A">
+            <rect x="242" y="185" width="8" height="8" rx="1"/>
+            <rect x="242" y="197" width="12" height="8" rx="1"/>
+            <rect x="242" y="207" width="22" height="8" rx="1"/>
+            <rect x="242" y="217" width="28" height="8" rx="1"/>
+            <rect x="242" y="227" width="32" height="8" rx="1"/>
+            <rect x="242" y="237" width="30" height="8" rx="1"/>
+            <rect x="242" y="247" width="24" height="8" rx="1"/>
+            <rect x="242" y="257" width="16" height="8" rx="1"/>
+          </g>
         </g>
       </g>
 
-      <!-- FULL VECTOR LOGO: MongoDB Leaf -->
+      <!-- CRISP VECTOR LOGO: MongoDB Leaf -->
       <g id="mongo-vector-logo">
         <animate attributeName="opacity" 
                  values="0; 0; 1; 1; 0; 0" 
                  keyTimes="0.00; 0.29; 0.31; 0.39; 0.41; 1.00" 
                  dur="35s" repeatCount="indefinite"/>
-        <g transform="translate(236, 245) scale(1.08)">
-          <path d="M 0 -68 C -18 -40, -42 -5, -42 22 C -42 46, -22 66, 0 76 Z" fill="#13AA52" filter="url(#glow3)"/>
+        <g transform="translate(236, 235) scale(1.1)">
+          <path d="M 0 -68 C -18 -40, -42 -5, -42 22 C -42 46, -22 66, 0 76 Z" fill="#13AA52"/>
           <path d="M 0 -68 C 18 -40, 42 -5, 42 22 C 42 46, 22 66, 0 76 Z" fill="#00684A"/>
-          <path d="M 0 -68 L 0 76" stroke="#FFFFFF" stroke-width="1.2" opacity="0.6"/>
+          <path d="M 0 -68 L 0 76" stroke="#FFFFFF" stroke-width="1.6" opacity="0.8"/>
           <path d="M 0 76 L 0 88 C 0 91, -2 93, -4 95" stroke="#855938" stroke-width="3.5" stroke-linecap="round"/>
         </g>
       </g>
 
-      <text x="236" y="365" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="900" fill="#10AA50" letter-spacing="2" filter="url(#glow3)">MONGODB</text>
-      <text x="236" y="388" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#0F172A" letter-spacing="0.5">PostgreSQL, MongoDB, Docker</text>
-      <line x1="64" y1="406" x2="408" y2="406" stroke="rgba(16, 170, 80, 0.25)" stroke-width="1"/>
+      <text x="236" y="352" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="900" fill="#10AA50" letter-spacing="2">MONGODB ATLAS</text>
+      <text x="236" y="373" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#0F172A" letter-spacing="0.5">PostgreSQL, MongoDB, Docker</text>
+      <line x1="64" y1="388" x2="408" y2="388" stroke="rgba(16, 170, 80, 0.3)" stroke-width="1"/>
 
-      <g transform="translate(52, 420)">
-        <rect x="0" y="0" width="112" height="34" rx="6" fill="rgba(16, 170, 80, 0.08)" stroke="rgba(16, 170, 80, 0.35)"/>
-        <text x="56" y="14" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#475569">DATA FORMAT</text>
-        <text x="56" y="27" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700" fill="#10AA50">JSON / BSON</text>
+      <g transform="translate(52, 400)">
+        <rect x="0" y="0" width="114" height="40" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="rgba(16, 170, 80, 0.4)" stroke-width="1"/>
+        <text x="10" y="16" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="700" fill="#475569">DATA FORMAT</text>
+        <text x="10" y="30" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800" fill="#10AA50">BSON / JSON Store</text>
 
-        <rect x="128" y="0" width="112" height="34" rx="6" fill="rgba(56, 189, 248, 0.08)" stroke="rgba(56, 189, 248, 0.35)"/>
-        <text x="184" y="14" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#475569">SCALABILITY</text>
-        <text x="184" y="27" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700" fill="#38BDF8">SHARDED CLUSTERS</text>
+        <rect x="127" y="0" width="114" height="40" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="rgba(56, 189, 248, 0.4)" stroke-width="1"/>
+        <text x="10" y="16" transform="translate(127, 0)" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="700" fill="#475569">SCALABILITY</text>
+        <text x="10" y="30" transform="translate(127, 0)" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800" fill="#38BDF8">Sharded Clusters</text>
 
-        <rect x="256" y="0" width="112" height="34" rx="6" fill="rgba(245, 158, 11, 0.08)" stroke="rgba(245, 158, 11, 0.35)"/>
-        <text x="312" y="14" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#475569">INDEXING</text>
-        <text x="312" y="27" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700" fill="#F59E0B">COMPOUND &amp; TTL</text>
+        <rect x="254" y="0" width="114" height="40" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="rgba(245, 158, 11, 0.4)" stroke-width="1"/>
+        <text x="10" y="16" transform="translate(254, 0)" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="700" fill="#475569">INDEXING</text>
+        <text x="10" y="30" transform="translate(254, 0)" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800" fill="#F59E0B">Compound &amp; TTL</text>
       </g>
 
-      <rect x="52" y="534" width="368" height="28" rx="6" fill="rgba(241, 245, 249, 0.95)" stroke="rgba(8, 145, 178, 0.3)" stroke-width="1"/>
-      <text x="236" y="552" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="700" fill="#10AA50" letter-spacing="1.5">PIXEL SYNTHESIS // MONGODB 100% READY ✓</text>
+      <g transform="translate(52, 452)">
+        <rect x="0" y="0" width="368" height="34" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="rgba(100, 116, 139, 0.3)" stroke-width="1"/>
+        <text x="14" y="21" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700" fill="#475569">HIGH AVAILABILITY</text>
+        <text x="135" y="21" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="800" fill="#0F172A">3-Node Replica Set • Mongoose ODM Pipelines</text>
+      </g>
+
+      <rect x="52" y="534" width="368" height="28" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="#10AA50" stroke-width="1"/>
+      <text x="236" y="552" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="800" fill="#10AA50" letter-spacing="1.5">PIXEL SYNTHESIS // MONGODB 100% READY ✓</text>
     </g>
 
     <!-- ============================================================ -->
-    <!-- PHASE 3: CORE.LANG & BACKEND (Python, FastAPI, Django)       -->
+    <!-- PHASE 3: PYTHON 3.12 (14.5s - 19.5s)                         -->
     <!-- ============================================================ -->
     <g id="python-pixel-layer" opacity="0" clip-path="url(#visMapClip)">
       <animate attributeName="opacity" 
@@ -440,95 +428,90 @@
       
       <rect x="36" y="84" width="400" height="492" fill="#F8FAFC"/>
 
-      <g opacity="0.10" stroke="#38BDF8" stroke-dasharray="3,4">
-        <line x1="36" y1="210" x2="436" y2="210"/>
-        <line x1="36" y1="340" x2="436" y2="340"/>
-        <line x1="170" y1="84" x2="170" y2="576"/>
-        <line x1="302" y1="84" x2="302" y2="576"/>
-      </g>
-
-      <line x1="36" y1="84" x2="436" y2="84" stroke="#38BDF8" stroke-width="2" opacity="0.5" filter="url(#glow3)">
+      <line x1="36" y1="84" x2="436" y2="84" stroke="#38BDF8" stroke-width="1.8" opacity="0.6">
         <animate attributeName="y1" values="84; 576; 84" dur="3.5s" repeatCount="indefinite"/>
         <animate attributeName="y2" values="84; 576; 84" dur="3.5s" repeatCount="indefinite"/>
       </line>
 
       <g transform="translate(52, 98)">
-        <rect x="0" y="0" width="368" height="28" rx="6" fill="rgba(56, 189, 248, 0.08)" stroke="rgba(56, 189, 248, 0.4)" stroke-width="1"/>
+        <rect x="0" y="0" width="368" height="28" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="rgba(56, 189, 248, 0.5)" stroke-width="1"/>
         <circle cx="16" cy="14" r="4" fill="#38BDF8">
-          <animate attributeName="opacity" values="1;0.35;1" dur="1.2s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="1;0.4;1" dur="1.2s" repeatCount="indefinite"/>
         </circle>
-        <text x="28" y="18" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#38BDF8" letter-spacing="1.5">TECH.STACK // CORE.LANG &amp; BACKEND</text>
-        <text x="352" y="18" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#38BDF8" text-anchor="end">PYTHON</text>
+        <text x="28" y="18" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="800" fill="#38BDF8" letter-spacing="1">CORE.STACK // 03: CORE BACKEND</text>
+        <text x="352" y="18" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800" fill="#38BDF8" text-anchor="end">PYTHON</text>
       </g>
 
-      <circle cx="236" cy="245" r="105" fill="url(#pythonBackdropGlow)"/>
+      <circle cx="236" cy="235" r="95" fill="url(#pythonBackdropGlow)"/>
 
-      <!-- PIXEL ASSEMBLY: Python Dual Snakes -->
+      <!-- CRISP PIXEL MATRIX: Python Dual Snakes -->
       <g id="python-pixels">
         <animate attributeName="opacity" 
                  values="0; 1; 1; 0.2; 0.2; 1; 0" 
                  keyTimes="0.00; 0.02; 0.43; 0.46; 0.53; 0.54; 0.56" 
                  dur="35s" repeatCount="indefinite"/>
-        <g filter="url(#glow3)">
+        <g stroke="rgba(255,255,255,0.4)" stroke-width="0.5">
           <g fill="#38BDF8">
-            <rect x="210" y="185" width="32" height="10" rx="2"/>
-            <rect x="200" y="195" width="22" height="22" rx="2"/>
-            <rect x="222" y="195" width="38" height="10" rx="2"/>
-            <rect x="250" y="205" width="10" height="22" rx="2"/>
-            <rect x="210" y="217" width="40" height="10" rx="2"/>
-            <rect x="214" y="197" width="5" height="5" fill="#FFFFFF"/>
+            <rect x="210" y="175" width="32" height="10" rx="2"/>
+            <rect x="200" y="185" width="22" height="22" rx="2"/>
+            <rect x="222" y="185" width="38" height="10" rx="2"/>
+            <rect x="250" y="195" width="10" height="22" rx="2"/>
+            <rect x="210" y="207" width="40" height="10" rx="2"/>
+            <rect x="214" y="187" width="5" height="5" fill="#FFFFFF"/>
           </g>
           <g fill="#F59E0B">
-            <rect x="220" y="295" width="32" height="10" rx="2"/>
-            <rect x="240" y="273" width="22" height="22" rx="2"/>
-            <rect x="202" y="285" width="38" height="10" rx="2"/>
-            <rect x="202" y="263" width="10" height="22" rx="2"/>
-            <rect x="212" y="263" width="40" height="10" rx="2"/>
-            <rect x="243" y="288" width="5" height="5" fill="#FFFFFF"/>
+            <rect x="220" y="285" width="32" height="10" rx="2"/>
+            <rect x="240" y="263" width="22" height="22" rx="2"/>
+            <rect x="202" y="275" width="38" height="10" rx="2"/>
+            <rect x="202" y="253" width="10" height="22" rx="2"/>
+            <rect x="212" y="253" width="40" height="10" rx="2"/>
+            <rect x="243" y="278" width="5" height="5" fill="#FFFFFF"/>
           </g>
-          <rect x="160" y="190" width="6" height="6" fill="#38BDF8" opacity="0.6"/>
-          <rect x="300" y="200" width="6" height="6" fill="#38BDF8" opacity="0.6"/>
-          <rect x="170" y="290" width="6" height="6" fill="#F59E0B" opacity="0.6"/>
-          <rect x="310" y="280" width="6" height="6" fill="#F59E0B" opacity="0.6"/>
         </g>
       </g>
 
-      <!-- FULL VECTOR LOGO: Python Dual Snakes -->
+      <!-- CRISP VECTOR LOGO: Python Dual Snakes -->
       <g id="python-vector-logo">
         <animate attributeName="opacity" 
                  values="0; 0; 1; 1; 0; 0" 
                  keyTimes="0.00; 0.43; 0.45; 0.53; 0.55; 1.00" 
                  dur="35s" repeatCount="indefinite"/>
-        <g transform="translate(236, 245) scale(3.5) translate(-16, -16)">
-          <path fill="#38BDF8" filter="url(#glow3)" d="M15.8 0C7.2 0 7.7 3.7 7.7 3.7l.01 3.8h8.2v1.2H4.8S0 8.2 0 16.8s4.3 8.3 4.3 8.3h2.6v-3.7s-.1-4.3 4.3-4.3h8.2s4.2.1 4.2-4.1V3.7S24.4 0 15.8 0zm-4.4 2.6c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5.7-1.5 1.5-1.5z"/>
-          <path fill="#F59E0B" filter="url(#glow3)" d="M16.2 32c8.6 0 8.1-3.7 8.1-3.7l-.01-3.8h-8.2v-1.2h11.1s4.8.5 4.8-8.1-4.3-8.3-4.3-8.3h-2.6v3.7s.1 4.3-4.3 4.3h-8.2s-4.2-.1-4.2 4.1v8.5s-.8 3.7 7.8 3.7zm4.4-2.6c-.8 0-1.5-.7-1.5-1.5s.7-1.5 1.5-1.5 1.5.7 1.5 1.5-.7 1.5-1.5 1.5z"/>
+        <g transform="translate(236, 235) scale(3.5) translate(-16, -16)">
+          <path fill="#38BDF8" d="M15.8 0C7.2 0 7.7 3.7 7.7 3.7l.01 3.8h8.2v1.2H4.8S0 8.2 0 16.8s4.3 8.3 4.3 8.3h2.6v-3.7s-.1-4.3 4.3-4.3h8.2s4.2.1 4.2-4.1V3.7S24.4 0 15.8 0zm-4.4 2.6c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5.7-1.5 1.5-1.5z"/>
+          <path fill="#F59E0B" d="M16.2 32c8.6 0 8.1-3.7 8.1-3.7l-.01-3.8h-8.2v-1.2h11.1s4.8.5 4.8-8.1-4.3-8.3-4.3-8.3h-2.6v3.7s.1 4.3-4.3 4.3h-8.2s-4.2-.1-4.2 4.1v8.5s-.8 3.7 7.8 3.7zm4.4-2.6c-.8 0-1.5-.7-1.5-1.5s.7-1.5 1.5-1.5 1.5.7 1.5 1.5-.7 1.5-1.5 1.5z"/>
         </g>
       </g>
 
-      <text x="236" y="365" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="900" fill="#38BDF8" letter-spacing="2" filter="url(#glow3)">PYTHON</text>
-      <text x="236" y="388" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#0F172A" letter-spacing="0.5">Node.js, FastAPI, Django, Express</text>
-      <line x1="64" y1="406" x2="408" y2="406" stroke="rgba(56, 189, 248, 0.25)" stroke-width="1"/>
+      <text x="236" y="352" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="900" fill="#38BDF8" letter-spacing="2">PYTHON 3.12</text>
+      <text x="236" y="373" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#0F172A" letter-spacing="0.5">Node.js, FastAPI, Django, Express</text>
+      <line x1="64" y1="388" x2="408" y2="388" stroke="rgba(56, 189, 248, 0.3)" stroke-width="1"/>
 
-      <g transform="translate(52, 420)">
-        <rect x="0" y="0" width="112" height="34" rx="6" fill="rgba(56, 189, 248, 0.08)" stroke="rgba(56, 189, 248, 0.35)"/>
-        <text x="56" y="14" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#475569">API RUNTIME</text>
-        <text x="56" y="27" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700" fill="#38BDF8">FASTAPI ASYNC</text>
+      <g transform="translate(52, 400)">
+        <rect x="0" y="0" width="114" height="40" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="rgba(56, 189, 248, 0.4)" stroke-width="1"/>
+        <text x="10" y="16" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="700" fill="#475569">API RUNTIME</text>
+        <text x="10" y="30" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800" fill="#38BDF8">FastAPI (Async)</text>
 
-        <rect x="128" y="0" width="112" height="34" rx="6" fill="rgba(245, 158, 11, 0.08)" stroke="rgba(245, 158, 11, 0.35)"/>
-        <text x="184" y="14" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#475569">BACKEND</text>
-        <text x="184" y="27" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700" fill="#F59E0B">DJANGO ORM</text>
+        <rect x="127" y="0" width="114" height="40" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="rgba(245, 158, 11, 0.4)" stroke-width="1"/>
+        <text x="10" y="16" transform="translate(127, 0)" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="700" fill="#475569">FRAMEWORK</text>
+        <text x="10" y="30" transform="translate(127, 0)" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800" fill="#F59E0B">Django ORM / Auth</text>
 
-        <rect x="256" y="0" width="112" height="34" rx="6" fill="rgba(16, 185, 129, 0.08)" stroke="rgba(16, 185, 129, 0.35)"/>
-        <text x="312" y="14" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#475569">AUTOMATION</text>
-        <text x="312" y="27" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700" fill="#10B981">UV / SCRIPTING</text>
+        <rect x="254" y="0" width="114" height="40" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="rgba(16, 185, 129, 0.4)" stroke-width="1"/>
+        <text x="10" y="16" transform="translate(254, 0)" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="700" fill="#475569">AUTOMATION</text>
+        <text x="10" y="30" transform="translate(254, 0)" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800" fill="#10B981">Celery / Pydantic</text>
       </g>
 
-      <rect x="52" y="534" width="368" height="28" rx="6" fill="rgba(241, 245, 249, 0.95)" stroke="rgba(8, 145, 178, 0.3)" stroke-width="1"/>
-      <text x="236" y="552" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="700" fill="#38BDF8" letter-spacing="1.5">PIXEL SYNTHESIS // PYTHON 100% READY ✓</text>
+      <g transform="translate(52, 452)">
+        <rect x="0" y="0" width="368" height="34" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="rgba(100, 116, 139, 0.3)" stroke-width="1"/>
+        <text x="14" y="21" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700" fill="#475569">PACKAGING</text>
+        <text x="88" y="21" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="800" fill="#0F172A">Poetry &amp; Uv • Type Hints • Pytest Suite</text>
+      </g>
+
+      <rect x="52" y="534" width="368" height="28" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="#38BDF8" stroke-width="1"/>
+      <text x="236" y="552" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="800" fill="#38BDF8" letter-spacing="1.5">PIXEL SYNTHESIS // PYTHON 100% READY ✓</text>
     </g>
 
     <!-- ============================================================ -->
-    <!-- PHASE 4: CORE.BACKEND (Node.js & Express)                    -->
+    <!-- PHASE 4: NODE.JS & EXPRESS (19.5s - 24.5s)                   -->
     <!-- ============================================================ -->
     <g id="node-pixel-layer" opacity="0" clip-path="url(#visMapClip)">
       <animate attributeName="opacity" 
@@ -538,107 +521,104 @@
       
       <rect x="36" y="84" width="400" height="492" fill="#F8FAFC"/>
 
-      <g opacity="0.10" stroke="#22C55E" stroke-dasharray="3,4">
-        <line x1="36" y1="210" x2="436" y2="210"/>
-        <line x1="36" y1="340" x2="436" y2="340"/>
-        <line x1="170" y1="84" x2="170" y2="576"/>
-        <line x1="302" y1="84" x2="302" y2="576"/>
-      </g>
-
-      <line x1="36" y1="84" x2="436" y2="84" stroke="#22C55E" stroke-width="2" opacity="0.5" filter="url(#glow3)">
+      <line x1="36" y1="84" x2="436" y2="84" stroke="#22C55E" stroke-width="1.8" opacity="0.6">
         <animate attributeName="y1" values="84; 576; 84" dur="3.5s" repeatCount="indefinite"/>
         <animate attributeName="y2" values="84; 576; 84" dur="3.5s" repeatCount="indefinite"/>
       </line>
 
       <g transform="translate(52, 98)">
-        <rect x="0" y="0" width="368" height="28" rx="6" fill="rgba(34, 197, 94, 0.08)" stroke="rgba(34, 197, 94, 0.4)" stroke-width="1"/>
+        <rect x="0" y="0" width="368" height="28" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="rgba(34, 197, 94, 0.5)" stroke-width="1"/>
         <circle cx="16" cy="14" r="4" fill="#22C55E">
-          <animate attributeName="opacity" values="1;0.35;1" dur="1.2s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="1;0.4;1" dur="1.2s" repeatCount="indefinite"/>
         </circle>
-        <text x="28" y="18" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#22C55E" letter-spacing="1.5">TECH.STACK // CORE.BACKEND</text>
-        <text x="352" y="18" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#22C55E" text-anchor="end">NODE.JS</text>
+        <text x="28" y="18" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="800" fill="#22C55E" letter-spacing="1">CORE.STACK // 04: BACKEND RUNTIME</text>
+        <text x="352" y="18" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800" fill="#22C55E" text-anchor="end">V8 ENGINE</text>
       </g>
 
-      <circle cx="236" cy="245" r="105" fill="url(#nodeBackdropGlow)"/>
+      <circle cx="236" cy="235" r="95" fill="url(#nodeBackdropGlow)"/>
 
-      <!-- PIXEL ASSEMBLY: Node.js Hexagon -->
+      <!-- CRISP PIXEL MATRIX: Node Hexagon -->
       <g id="node-pixels">
         <animate attributeName="opacity" 
                  values="0; 1; 1; 0.2; 0.2; 1; 0" 
                  keyTimes="0.00; 0.02; 0.57; 0.60; 0.67; 0.68; 0.70" 
                  dur="35s" repeatCount="indefinite"/>
-        <g fill="#22C55E" filter="url(#glow3)">
-          <rect x="216" y="180" width="10" height="8" rx="1"/>
-          <rect x="228" y="180" width="10" height="8" rx="1"/>
-          <rect x="240" y="180" width="10" height="8" rx="1"/>
-          <rect x="254" y="188" width="10" height="8" rx="1"/>
-          <rect x="266" y="198" width="10" height="8" rx="1"/>
-          <rect x="276" y="210" width="10" height="8" rx="1"/>
-          <rect x="284" y="224" width="8" height="10" rx="1"/>
-          <rect x="284" y="238" width="8" height="10" rx="1"/>
-          <rect x="284" y="252" width="8" height="10" rx="1"/>
-          <rect x="276" y="266" width="10" height="8" rx="1"/>
-          <rect x="266" y="278" width="10" height="8" rx="1"/>
-          <rect x="254" y="288" width="10" height="8" rx="1"/>
-          <rect x="240" y="296" width="10" height="8" rx="1"/>
-          <rect x="228" y="296" width="10" height="8" rx="1"/>
-          <rect x="216" y="296" width="10" height="8" rx="1"/>
-          <rect x="202" y="288" width="10" height="8" rx="1"/>
-          <rect x="190" y="278" width="10" height="8" rx="1"/>
-          <rect x="180" y="266" width="10" height="8" rx="1"/>
-          <rect x="174" y="252" width="8" height="10" rx="1"/>
-          <rect x="174" y="238" width="8" height="10" rx="1"/>
-          <rect x="174" y="224" width="8" height="10" rx="1"/>
-          <rect x="180" y="210" width="10" height="8" rx="1"/>
-          <rect x="190" y="198" width="10" height="8" rx="1"/>
-          <rect x="202" y="188" width="10" height="8" rx="1"/>
-          <rect x="212" y="226" width="18" height="7" rx="1" fill="#FFFFFF"/>
-          <rect x="212" y="235" width="7" height="18" rx="1" fill="#FFFFFF"/>
-          <rect x="212" y="253" width="18" height="7" rx="1" fill="#FFFFFF"/>
-          <rect x="242" y="226" width="18" height="7" rx="1" fill="#FFFFFF"/>
-          <rect x="253" y="235" width="7" height="18" rx="1" fill="#FFFFFF"/>
-          <rect x="242" y="253" width="18" height="7" rx="1" fill="#FFFFFF"/>
+        <g fill="#22C55E" stroke="rgba(255,255,255,0.4)" stroke-width="0.5">
+          <rect x="216" y="170" width="10" height="8" rx="1"/>
+          <rect x="228" y="170" width="10" height="8" rx="1"/>
+          <rect x="240" y="170" width="10" height="8" rx="1"/>
+          <rect x="254" y="178" width="10" height="8" rx="1"/>
+          <rect x="266" y="188" width="10" height="8" rx="1"/>
+          <rect x="276" y="200" width="10" height="8" rx="1"/>
+          <rect x="284" y="214" width="8" height="10" rx="1"/>
+          <rect x="284" y="228" width="8" height="10" rx="1"/>
+          <rect x="284" y="242" width="8" height="10" rx="1"/>
+          <rect x="276" y="256" width="10" height="8" rx="1"/>
+          <rect x="266" y="268" width="10" height="8" rx="1"/>
+          <rect x="254" y="278" width="10" height="8" rx="1"/>
+          <rect x="240" y="286" width="10" height="8" rx="1"/>
+          <rect x="228" y="286" width="10" height="8" rx="1"/>
+          <rect x="216" y="286" width="10" height="8" rx="1"/>
+          <rect x="202" y="278" width="10" height="8" rx="1"/>
+          <rect x="190" y="268" width="10" height="8" rx="1"/>
+          <rect x="180" y="256" width="10" height="8" rx="1"/>
+          <rect x="174" y="242" width="8" height="10" rx="1"/>
+          <rect x="174" y="228" width="8" height="10" rx="1"/>
+          <rect x="174" y="214" width="8" height="10" rx="1"/>
+          <rect x="180" y="200" width="10" height="8" rx="1"/>
+          <rect x="190" y="188" width="10" height="8" rx="1"/>
+          <rect x="202" y="178" width="10" height="8" rx="1"/>
+          <rect x="212" y="216" width="18" height="7" rx="1" fill="#FFFFFF"/>
+          <rect x="212" y="225" width="7" height="18" rx="1" fill="#FFFFFF"/>
+          <rect x="212" y="243" width="18" height="7" rx="1" fill="#FFFFFF"/>
+          <rect x="242" y="216" width="18" height="7" rx="1" fill="#FFFFFF"/>
+          <rect x="253" y="225" width="7" height="18" rx="1" fill="#FFFFFF"/>
+          <rect x="242" y="243" width="18" height="7" rx="1" fill="#FFFFFF"/>
         </g>
       </g>
 
-      <!-- FULL VECTOR LOGO: Node.js Hexagon -->
+      <!-- CRISP VECTOR LOGO: Node.js Hexagon -->
       <g id="node-vector-logo">
         <animate attributeName="opacity" 
                  values="0; 0; 1; 1; 0; 0" 
                  keyTimes="0.00; 0.57; 0.59; 0.67; 0.69; 1.00" 
                  dur="35s" repeatCount="indefinite"/>
-        <g transform="translate(236, 245) scale(1.35)">
-          <polygon points="0,-48 42,-24 42,24 0,48 -42,24 -42,-24" fill="rgba(34, 197, 94, 0.22)" stroke="#22C55E" stroke-width="3" filter="url(#glow3)">
-            <animate attributeName="stroke-width" values="2.6; 3.6; 2.6" dur="2s" repeatCount="indefinite"/>
-          </polygon>
+        <g transform="translate(236, 235) scale(1.35)">
+          <polygon points="0,-48 42,-24 42,24 0,48 -42,24 -42,-24" fill="rgba(34, 197, 94, 0.25)" stroke="#22C55E" stroke-width="3.2"/>
           <text x="0" y="10" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="28" font-weight="900" fill="#FFFFFF" letter-spacing="1">JS</text>
         </g>
       </g>
 
-      <text x="236" y="365" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="900" fill="#22C55E" letter-spacing="2" filter="url(#glow3)">NODE.JS &amp; EXPRESS</text>
-      <text x="236" y="388" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#0F172A" letter-spacing="0.5">Node.js, FastAPI, Django, Express</text>
-      <line x1="64" y1="406" x2="408" y2="406" stroke="rgba(34, 197, 94, 0.25)" stroke-width="1"/>
+      <text x="236" y="352" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="900" fill="#22C55E" letter-spacing="2">NODE.JS &amp; EXPRESS</text>
+      <text x="236" y="373" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#0F172A" letter-spacing="0.5">Node.js, FastAPI, Django, Express</text>
+      <line x1="64" y1="388" x2="408" y2="388" stroke="rgba(34, 197, 94, 0.3)" stroke-width="1"/>
 
-      <g transform="translate(52, 420)">
-        <rect x="0" y="0" width="112" height="34" rx="6" fill="rgba(34, 197, 94, 0.08)" stroke="rgba(34, 197, 94, 0.35)"/>
-        <text x="56" y="14" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#475569">ARCHITECTURE</text>
-        <text x="56" y="27" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700" fill="#22C55E">EVENT LOOP</text>
+      <g transform="translate(52, 400)">
+        <rect x="0" y="0" width="114" height="40" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="rgba(34, 197, 94, 0.4)" stroke-width="1"/>
+        <text x="10" y="16" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="700" fill="#475569">ARCHITECTURE</text>
+        <text x="10" y="30" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800" fill="#22C55E">Async Event Loop</text>
 
-        <rect x="128" y="0" width="112" height="34" rx="6" fill="rgba(56, 189, 248, 0.08)" stroke="rgba(56, 189, 248, 0.35)"/>
-        <text x="184" y="14" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#475569">SERVER</text>
-        <text x="184" y="27" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700" fill="#38BDF8">EXPRESS.JS</text>
+        <rect x="127" y="0" width="114" height="40" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="rgba(56, 189, 248, 0.4)" stroke-width="1"/>
+        <text x="10" y="16" transform="translate(127, 0)" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="700" fill="#475569">API FRAMEWORK</text>
+        <text x="10" y="30" transform="translate(127, 0)" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800" fill="#38BDF8">Express &amp; NestJS</text>
 
-        <rect x="256" y="0" width="112" height="34" rx="6" fill="rgba(167, 139, 250, 0.08)" stroke="rgba(167, 139, 250, 0.35)"/>
-        <text x="312" y="14" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#475569">APIS</text>
-        <text x="312" y="27" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700" fill="#A78BFA">REST &amp; GRAPHQL</text>
+        <rect x="254" y="0" width="114" height="40" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="rgba(167, 139, 250, 0.4)" stroke-width="1"/>
+        <text x="10" y="16" transform="translate(254, 0)" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="700" fill="#475569">COMMUNICATION</text>
+        <text x="10" y="30" transform="translate(254, 0)" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800" fill="#A78BFA">REST &amp; WebSockets</text>
       </g>
 
-      <rect x="52" y="534" width="368" height="28" rx="6" fill="rgba(241, 245, 249, 0.95)" stroke="rgba(8, 145, 178, 0.3)" stroke-width="1"/>
-      <text x="236" y="552" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="700" fill="#22C55E" letter-spacing="1.5">PIXEL SYNTHESIS // NODE.JS 100% READY ✓</text>
+      <g transform="translate(52, 452)">
+        <rect x="0" y="0" width="368" height="34" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="rgba(100, 116, 139, 0.3)" stroke-width="1"/>
+        <text x="14" y="21" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700" fill="#475569">MICROSERVICES</text>
+        <text x="108" y="21" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="800" fill="#0F172A">High-Throughput IO • JWT Auth • Middleware</text>
+      </g>
+
+      <rect x="52" y="534" width="368" height="28" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="#22C55E" stroke-width="1"/>
+      <text x="236" y="552" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="800" fill="#22C55E" letter-spacing="1.5">PIXEL SYNTHESIS // NODE.JS 100% READY ✓</text>
     </g>
 
     <!-- ============================================================ -->
-    <!-- PHASE 5: CORE.LANG (Python, TypeScript, C++)                 -->
+    <!-- PHASE 5: TYPESCRIPT & C++ (24.5s - 29.5s)                    -->
     <!-- ============================================================ -->
     <g id="ts-pixel-layer" opacity="0" clip-path="url(#visMapClip)">
       <animate attributeName="opacity" 
@@ -648,97 +628,89 @@
       
       <rect x="36" y="84" width="400" height="492" fill="#F8FAFC"/>
 
-      <g opacity="0.10" stroke="#3178C6" stroke-dasharray="3,4">
-        <line x1="36" y1="210" x2="436" y2="210"/>
-        <line x1="36" y1="340" x2="436" y2="340"/>
-        <line x1="170" y1="84" x2="170" y2="576"/>
-        <line x1="302" y1="84" x2="302" y2="576"/>
-      </g>
-
-      <line x1="36" y1="84" x2="436" y2="84" stroke="#3178C6" stroke-width="2" opacity="0.5" filter="url(#glow3)">
+      <line x1="36" y1="84" x2="436" y2="84" stroke="#3178C6" stroke-width="1.8" opacity="0.6">
         <animate attributeName="y1" values="84; 576; 84" dur="3.5s" repeatCount="indefinite"/>
         <animate attributeName="y2" values="84; 576; 84" dur="3.5s" repeatCount="indefinite"/>
       </line>
 
       <g transform="translate(52, 98)">
-        <rect x="0" y="0" width="368" height="28" rx="6" fill="rgba(49, 120, 198, 0.08)" stroke="rgba(49, 120, 198, 0.4)" stroke-width="1"/>
+        <rect x="0" y="0" width="368" height="28" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="rgba(49, 120, 198, 0.5)" stroke-width="1"/>
         <circle cx="16" cy="14" r="4" fill="#3178C6">
-          <animate attributeName="opacity" values="1;0.35;1" dur="1.2s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="1;0.4;1" dur="1.2s" repeatCount="indefinite"/>
         </circle>
-        <text x="28" y="18" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#38BDF8" letter-spacing="1.5">TECH.STACK // CORE.LANG</text>
-        <text x="352" y="18" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#3178C6" text-anchor="end">TYPESCRIPT / C++</text>
+        <text x="28" y="18" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="800" fill="#38BDF8" letter-spacing="1">CORE.STACK // 05: SYSTEMS &amp; TYPING</text>
+        <text x="352" y="18" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800" fill="#3178C6" text-anchor="end">TS 5.4</text>
       </g>
 
-      <circle cx="236" cy="245" r="105" fill="url(#tsBackdropGlow)"/>
+      <circle cx="236" cy="235" r="95" fill="url(#tsBackdropGlow)"/>
 
-      <!-- PIXEL ASSEMBLY: TypeScript Square Badge + C++ Lightning -->
+      <!-- CRISP PIXEL MATRIX: TypeScript & C++ -->
       <g id="ts-pixels">
         <animate attributeName="opacity" 
                  values="0; 1; 1; 0.2; 0.2; 1; 0" 
                  keyTimes="0.00; 0.02; 0.72; 0.75; 0.82; 0.83; 0.85" 
                  dur="35s" repeatCount="indefinite"/>
-        <g fill="#3178C6" filter="url(#glow3)">
-          <!-- Square Badge Outline pixels -->
-          <rect x="180" y="195" width="112" height="12" rx="2"/>
-          <rect x="180" y="285" width="112" height="12" rx="2"/>
-          <rect x="180" y="195" width="12" height="102" rx="2"/>
-          <rect x="280" y="195" width="12" height="102" rx="2"/>
-          <!-- Inner TS letters in White pixels -->
+        <g fill="#3178C6" stroke="rgba(255,255,255,0.4)" stroke-width="0.5">
+          <rect x="180" y="185" width="112" height="12" rx="2"/>
+          <rect x="180" y="275" width="112" height="12" rx="2"/>
+          <rect x="180" y="185" width="12" height="102" rx="2"/>
+          <rect x="280" y="185" width="12" height="102" rx="2"/>
           <g fill="#FFFFFF">
-            <!-- T -->
-            <rect x="202" y="222" width="30" height="8" rx="1"/>
-            <rect x="213" y="222" width="8" height="42" rx="1"/>
-            <!-- S -->
-            <rect x="242" y="222" width="28" height="8" rx="1"/>
-            <rect x="242" y="222" width="8" height="22" rx="1"/>
-            <rect x="242" y="238" width="28" height="8" rx="1"/>
-            <rect x="262" y="244" width="8" height="20" rx="1"/>
-            <rect x="242" y="258" width="28" height="8" rx="1"/>
+            <rect x="202" y="212" width="30" height="8" rx="1"/>
+            <rect x="213" y="212" width="8" height="42" rx="1"/>
+            <rect x="242" y="212" width="28" height="8" rx="1"/>
+            <rect x="242" y="212" width="8" height="22" rx="1"/>
+            <rect x="242" y="228" width="28" height="8" rx="1"/>
+            <rect x="262" y="234" width="8" height="20" rx="1"/>
+            <rect x="242" y="248" width="28" height="8" rx="1"/>
           </g>
-          <!-- C++ Badge Pill Pixels right side -->
-          <rect x="285" y="190" width="28" height="14" rx="3" fill="#00599C"/>
-          <rect x="160" y="190" width="6" height="6" fill="#3178C6" opacity="0.6"/>
-          <rect x="305" y="295" width="6" height="6" fill="#3178C6" opacity="0.6"/>
+          <rect x="285" y="180" width="30" height="14" rx="3" fill="#00599C"/>
         </g>
       </g>
 
-      <!-- FULL VECTOR LOGO: TypeScript Shield & C++ Emblem -->
+      <!-- CRISP VECTOR LOGO: TypeScript Shield -->
       <g id="ts-vector-logo">
         <animate attributeName="opacity" 
                  values="0; 0; 1; 1; 0; 0" 
                  keyTimes="0.00; 0.72; 0.74; 0.82; 0.84; 1.00" 
                  dur="35s" repeatCount="indefinite"/>
-        <g transform="translate(236, 245) scale(2.8) translate(-16, -16)">
-          <rect width="32" height="32" rx="5" fill="#3178C6" filter="url(#glow3)"/>
+        <g transform="translate(236, 235) scale(2.8) translate(-16, -16)">
+          <rect width="32" height="32" rx="5" fill="#3178C6"/>
           <path fill="#FFFFFF" d="M11 12H6v-2.5h12.5V12H13.5v13H11V12z"/>
           <path fill="#FFFFFF" d="M25.5 14.5c-1.4-.8-2.8-1.1-4.2-1.1-1.4 0-2.3.5-2.3 1.5 0 1 .9 1.5 2.8 2.2 3.1 1.1 4.7 2.4 4.7 4.9 0 3-2.4 4.9-6.3 4.9-1.9 0-3.6-.4-5-1.3l1-2.6c1.4.9 2.8 1.3 4.1 1.3 1.6 0 2.6-.7 2.6-1.7 0-1-.8-1.5-2.8-2.3-3.1-1.2-4.7-2.4-4.7-4.7 0-2.9 2.3-4.6 5.8-4.6 1.7 0 3.2.3 4.5 1l-.8 2.7z"/>
         </g>
       </g>
 
-      <text x="236" y="365" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="900" fill="#38BDF8" letter-spacing="2" filter="url(#glow3)">TYPESCRIPT &amp; C++</text>
-      <text x="236" y="388" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#0F172A" letter-spacing="0.5">Python, TypeScript, C++</text>
-      <line x1="64" y1="406" x2="408" y2="406" stroke="rgba(49, 120, 198, 0.25)" stroke-width="1"/>
+      <text x="236" y="352" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="900" fill="#38BDF8" letter-spacing="2">TYPESCRIPT &amp; C++</text>
+      <text x="236" y="373" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#0F172A" letter-spacing="0.5">Python, TypeScript, C++</text>
+      <line x1="64" y1="388" x2="408" y2="388" stroke="rgba(49, 120, 198, 0.3)" stroke-width="1"/>
 
-      <g transform="translate(52, 420)">
-        <rect x="0" y="0" width="112" height="34" rx="6" fill="rgba(49, 120, 198, 0.08)" stroke="rgba(49, 120, 198, 0.35)"/>
-        <text x="56" y="14" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#475569">TYPE SAFETY</text>
-        <text x="56" y="27" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700" fill="#38BDF8">STRICT TS 5.4</text>
+      <g transform="translate(52, 400)">
+        <rect x="0" y="0" width="114" height="40" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="rgba(49, 120, 198, 0.4)" stroke-width="1"/>
+        <text x="10" y="16" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="700" fill="#475569">TYPE SYSTEM</text>
+        <text x="10" y="30" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800" fill="#38BDF8">Strict TS 5.4</text>
 
-        <rect x="128" y="0" width="112" height="34" rx="6" fill="rgba(0, 89, 156, 0.08)" stroke="rgba(0, 89, 156, 0.35)"/>
-        <text x="184" y="14" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#475569">PERFORMANCE</text>
-        <text x="184" y="27" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700" fill="#60A5FA">MODERN C++</text>
+        <rect x="127" y="0" width="114" height="40" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="rgba(0, 89, 156, 0.4)" stroke-width="1"/>
+        <text x="10" y="16" transform="translate(127, 0)" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="700" fill="#475569">PERFORMANCE</text>
+        <text x="10" y="30" transform="translate(127, 0)" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800" fill="#60A5FA">Modern C++ (STL)</text>
 
-        <rect x="256" y="0" width="112" height="34" rx="6" fill="rgba(16, 185, 129, 0.08)" stroke="rgba(16, 185, 129, 0.35)"/>
-        <text x="312" y="14" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#475569">PARADIGM</text>
-        <text x="312" y="27" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700" fill="#10B981">OOP &amp; GENERICS</text>
+        <rect x="254" y="0" width="114" height="40" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="rgba(16, 185, 129, 0.4)" stroke-width="1"/>
+        <text x="10" y="16" transform="translate(254, 0)" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="700" fill="#475569">PARADIGMS</text>
+        <text x="10" y="30" transform="translate(254, 0)" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800" fill="#10B981">Generics &amp; OOP</text>
       </g>
 
-      <rect x="52" y="534" width="368" height="28" rx="6" fill="rgba(241, 245, 249, 0.95)" stroke="rgba(8, 145, 178, 0.3)" stroke-width="1"/>
-      <text x="236" y="552" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="700" fill="#38BDF8" letter-spacing="1.5">PIXEL SYNTHESIS // TYPESCRIPT 100% READY ✓</text>
+      <g transform="translate(52, 452)">
+        <rect x="0" y="0" width="368" height="34" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="rgba(100, 116, 139, 0.3)" stroke-width="1"/>
+        <text x="14" y="21" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700" fill="#475569">RELIABILITY</text>
+        <text x="105" y="21" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="800" fill="#0F172A">Zero Runtime Type Errors • Low Memory Overhead</text>
+      </g>
+
+      <rect x="52" y="534" width="368" height="28" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="#3178C6" stroke-width="1"/>
+      <text x="236" y="552" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="800" fill="#38BDF8" letter-spacing="1.5">PIXEL SYNTHESIS // TYPESCRIPT 100% READY ✓</text>
     </g>
 
     <!-- ============================================================ -->
-    <!-- PHASE 6: CORE.DATABASE (PostgreSQL & Docker)                 -->
+    <!-- PHASE 6: POSTGRESQL & DOCKER (29.5s - 35s)                   -->
     <!-- ============================================================ -->
     <g id="postgres-pixel-layer" opacity="0" clip-path="url(#visMapClip)">
       <animate attributeName="opacity" 
@@ -748,94 +720,89 @@
       
       <rect x="36" y="84" width="400" height="492" fill="#F8FAFC"/>
 
-      <g opacity="0.10" stroke="#60A5FA" stroke-dasharray="3,4">
-        <line x1="36" y1="210" x2="436" y2="210"/>
-        <line x1="36" y1="340" x2="436" y2="340"/>
-        <line x1="170" y1="84" x2="170" y2="576"/>
-        <line x1="302" y1="84" x2="302" y2="576"/>
-      </g>
-
-      <line x1="36" y1="84" x2="436" y2="84" stroke="#60A5FA" stroke-width="2" opacity="0.5" filter="url(#glow3)">
+      <line x1="36" y1="84" x2="436" y2="84" stroke="#60A5FA" stroke-width="1.8" opacity="0.6">
         <animate attributeName="y1" values="84; 576; 84" dur="3.5s" repeatCount="indefinite"/>
         <animate attributeName="y2" values="84; 576; 84" dur="3.5s" repeatCount="indefinite"/>
       </line>
 
       <g transform="translate(52, 98)">
-        <rect x="0" y="0" width="368" height="28" rx="6" fill="rgba(96, 165, 250, 0.08)" stroke="rgba(96, 165, 250, 0.4)" stroke-width="1"/>
+        <rect x="0" y="0" width="368" height="28" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="rgba(96, 165, 250, 0.5)" stroke-width="1"/>
         <circle cx="16" cy="14" r="4" fill="#60A5FA">
-          <animate attributeName="opacity" values="1;0.35;1" dur="1.2s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="1;0.4;1" dur="1.2s" repeatCount="indefinite"/>
         </circle>
-        <text x="28" y="18" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#60A5FA" letter-spacing="1.5">TECH.STACK // DATABASE &amp; DEVOPS</text>
-        <text x="352" y="18" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#60A5FA" text-anchor="end">POSTGRES / DOCKER</text>
+        <text x="28" y="18" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="800" fill="#60A5FA" letter-spacing="1">CORE.STACK // 06: SQL &amp; DEVOPS</text>
+        <text x="352" y="18" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800" fill="#60A5FA" text-anchor="end">ACID SQL</text>
       </g>
 
-      <circle cx="236" cy="245" r="105" fill="url(#postgresBackdropGlow)"/>
+      <circle cx="236" cy="235" r="95" fill="url(#postgresBackdropGlow)"/>
 
-      <!-- PIXEL ASSEMBLY: PostgreSQL Elephant Slonik -->
+      <!-- CRISP PIXEL MATRIX: PostgreSQL Slonik Elephant -->
       <g id="postgres-pixels">
         <animate attributeName="opacity" 
                  values="0; 1; 1; 0.2; 0.2; 1; 0" 
                  keyTimes="0.00; 0.02; 0.86; 0.89; 0.96; 0.97; 0.99" 
                  dur="35s" repeatCount="indefinite"/>
-        <g fill="#60A5FA" filter="url(#glow3)">
-          <rect x="210" y="185" width="50" height="24" rx="4"/>
-          <rect x="195" y="200" width="25" height="35" rx="3"/>
-          <rect x="250" y="200" width="30" height="40" rx="3"/>
-          <rect x="215" y="205" width="40" height="45" rx="4"/>
-          <rect x="230" y="250" width="12" height="30" rx="3"/>
-          <rect x="220" y="275" width="16" height="10" rx="2"/>
-          <rect x="218" y="248" width="6" height="14" rx="1" fill="#FFFFFF"/>
-          <rect x="248" y="248" width="6" height="14" rx="1" fill="#FFFFFF"/>
-          <rect x="222" y="205" width="5" height="5" fill="#FFFFFF"/>
-          <rect x="245" y="205" width="5" height="5" fill="#FFFFFF"/>
-          <rect x="170" y="195" width="6" height="6" opacity="0.6"/>
-          <rect x="300" y="200" width="6" height="6" opacity="0.6"/>
-          <rect x="180" y="280" width="6" height="6" opacity="0.6"/>
-          <rect x="290" y="275" width="6" height="6" opacity="0.6"/>
+        <g fill="#60A5FA" stroke="rgba(255,255,255,0.4)" stroke-width="0.5">
+          <rect x="210" y="175" width="50" height="24" rx="4"/>
+          <rect x="195" y="190" width="25" height="35" rx="3"/>
+          <rect x="250" y="190" width="30" height="40" rx="3"/>
+          <rect x="215" y="195" width="40" height="45" rx="4"/>
+          <rect x="230" y="240" width="12" height="30" rx="3"/>
+          <rect x="220" y="265" width="16" height="10" rx="2"/>
+          <rect x="218" y="238" width="6" height="14" rx="1" fill="#FFFFFF"/>
+          <rect x="248" y="238" width="6" height="14" rx="1" fill="#FFFFFF"/>
+          <rect x="222" y="195" width="5" height="5" fill="#FFFFFF"/>
+          <rect x="245" y="195" width="5" height="5" fill="#FFFFFF"/>
         </g>
       </g>
 
-      <!-- FULL VECTOR LOGO: PostgreSQL Slonik Elephant Silhouette -->
+      <!-- CRISP VECTOR LOGO: PostgreSQL Elephant Slonik Silhouette -->
       <g id="postgres-vector-logo">
         <animate attributeName="opacity" 
                  values="0; 0; 1; 1; 0; 0" 
                  keyTimes="0.00; 0.86; 0.88; 0.96; 0.98; 1.00" 
                  dur="35s" repeatCount="indefinite"/>
-        <g transform="translate(236, 245) scale(1.15)">
-          <path fill="#336791" stroke="#60A5FA" stroke-width="2" filter="url(#glow3)"
+        <g transform="translate(236, 235) scale(1.15)">
+          <path fill="#336791" stroke="#60A5FA" stroke-width="2.2"
                 d="M -30 -35 C -25 -45, -5 -50, 0 -50 C 5 -50, 25 -45, 30 -35 C 45 -30, 52 -10, 48 15 C 45 30, 32 40, 22 42 C 16 55, 12 70, 8 72 C 2 74, -4 68, -4 55 C -6 45, -12 44, -18 42 C -30 40, -45 30, -48 15 C -52 -10, -45 -30, -30 -35 Z"/>
-          <path d="M -32 -20 C -42 -5, -40 20, -25 30" fill="none" stroke="#60A5FA" stroke-width="1.8" opacity="0.7"/>
-          <path d="M 32 -20 C 42 -5, 40 20, 25 30" fill="none" stroke="#60A5FA" stroke-width="1.8" opacity="0.7"/>
-          <path d="M -16 28 C -18 38, -26 44, -30 42 C -30 36, -20 28, -14 24 Z" fill="#FFFFFF" filter="url(#glow3)"/>
-          <path d="M 16 28 C 18 38, 26 44, 30 42 C 30 36, 20 28, 14 24 Z" fill="#FFFFFF" filter="url(#glow3)"/>
+          <path d="M -32 -20 C -42 -5, -40 20, -25 30" fill="none" stroke="#60A5FA" stroke-width="1.8" opacity="0.8"/>
+          <path d="M 32 -20 C 42 -5, 40 20, 25 30" fill="none" stroke="#60A5FA" stroke-width="1.8" opacity="0.8"/>
+          <path d="M -16 28 C -18 38, -26 44, -30 42 C -30 36, -20 28, -14 24 Z" fill="#FFFFFF"/>
+          <path d="M 16 28 C 18 38, 26 44, 30 42 C 30 36, 20 28, 14 24 Z" fill="#FFFFFF"/>
           <path d="M -8 -15 C -8 15, -4 48, 2 52 C 6 48, 8 15, 8 -15" fill="rgba(96, 165, 250, 0.25)" stroke="#60A5FA" stroke-width="1.5"/>
-          <circle cx="-16" cy="-12" r="3.2" fill="#FFFFFF" filter="url(#glow3)"/>
-          <circle cx="16" cy="-12" r="3.2" fill="#FFFFFF" filter="url(#glow3)"/>
+          <circle cx="-16" cy="-12" r="3.2" fill="#FFFFFF"/>
+          <circle cx="16" cy="-12" r="3.2" fill="#FFFFFF"/>
           <circle cx="-16" cy="-12" r="1.5" fill="#0A101F"/>
           <circle cx="16" cy="-12" r="1.5" fill="#0A101F"/>
         </g>
       </g>
 
-      <text x="236" y="365" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="20" font-weight="900" fill="#60A5FA" letter-spacing="1.5" filter="url(#glow3)">POSTGRESQL &amp; DOCKER</text>
-      <text x="236" y="388" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#0F172A" letter-spacing="0.5">PostgreSQL, MongoDB, Docker</text>
-      <line x1="64" y1="406" x2="408" y2="406" stroke="rgba(96, 165, 250, 0.25)" stroke-width="1"/>
+      <text x="236" y="352" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="20" font-weight="900" fill="#60A5FA" letter-spacing="1.5">POSTGRESQL &amp; DOCKER</text>
+      <text x="236" y="373" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#0F172A" letter-spacing="0.5">PostgreSQL, MongoDB, Docker</text>
+      <line x1="64" y1="388" x2="408" y2="388" stroke="rgba(96, 165, 250, 0.3)" stroke-width="1"/>
 
-      <g transform="translate(52, 420)">
-        <rect x="0" y="0" width="112" height="34" rx="6" fill="rgba(96, 165, 250, 0.08)" stroke="rgba(96, 165, 250, 0.35)"/>
-        <text x="56" y="14" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#475569">RELATIONAL</text>
-        <text x="56" y="27" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700" fill="#60A5FA">ACID SQL</text>
+      <g transform="translate(52, 400)">
+        <rect x="0" y="0" width="114" height="40" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="rgba(96, 165, 250, 0.4)" stroke-width="1"/>
+        <text x="10" y="16" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="700" fill="#475569">RELATIONAL</text>
+        <text x="10" y="30" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800" fill="#60A5FA">ACID Transactions</text>
 
-        <rect x="128" y="0" width="112" height="34" rx="6" fill="rgba(2, 132, 199, 0.08)" stroke="rgba(2, 132, 199, 0.35)"/>
-        <text x="184" y="14" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#475569">DEVOPS</text>
-        <text x="184" y="27" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700" fill="#38BDF8">DOCKER COMPOSE</text>
+        <rect x="127" y="0" width="114" height="40" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="rgba(2, 132, 199, 0.4)" stroke-width="1"/>
+        <text x="10" y="16" transform="translate(127, 0)" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="700" fill="#475569">CONTAINERS</text>
+        <text x="10" y="30" transform="translate(127, 0)" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800" fill="#38BDF8">Docker Compose</text>
 
-        <rect x="256" y="0" width="112" height="34" rx="6" fill="rgba(16, 185, 129, 0.08)" stroke="rgba(16, 185, 129, 0.35)"/>
-        <text x="312" y="14" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#475569">ORM TOOLING</text>
-        <text x="312" y="27" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700" fill="#10B981">PRISMA / PG</text>
+        <rect x="254" y="0" width="114" height="40" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="rgba(16, 185, 129, 0.4)" stroke-width="1"/>
+        <text x="10" y="16" transform="translate(254, 0)" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="700" fill="#475569">ORM TOOLING</text>
+        <text x="10" y="30" transform="translate(254, 0)" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800" fill="#10B981">Prisma &amp; PgVector</text>
       </g>
 
-      <rect x="52" y="534" width="368" height="28" rx="6" fill="rgba(241, 245, 249, 0.95)" stroke="rgba(8, 145, 178, 0.3)" stroke-width="1"/>
-      <text x="236" y="552" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="700" fill="#60A5FA" letter-spacing="1.5">PIXEL SYNTHESIS // DATABASE 100% READY ✓</text>
+      <g transform="translate(52, 452)">
+        <rect x="0" y="0" width="368" height="34" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="rgba(100, 116, 139, 0.3)" stroke-width="1"/>
+        <text x="14" y="21" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700" fill="#475569">INFRASTRUCTURE</text>
+        <text x="125" y="21" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="800" fill="#0F172A">Kubernetes • Microservices • Automated CI/CD</text>
+      </g>
+
+      <rect x="52" y="534" width="368" height="28" rx="6" fill="rgba(241, 245, 249, 0.98)" stroke="#60A5FA" stroke-width="1"/>
+      <text x="236" y="552" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="800" fill="#60A5FA" letter-spacing="1.5">PIXEL SYNTHESIS // DATABASE 100% READY ✓</text>
     </g>
 
 
