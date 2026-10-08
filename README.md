@@ -1,111 +1,105 @@
-<!-- ===== THEME-AWARE HERO BANNER ===== -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/dark.svg?v=1789123594">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/light.svg?v=1789123594">
-  <img alt="Satvik - Software Engineer" src="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/dark.svg?v=1789123594" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/header-dark.svg">
+  <img src="assets/profile/header-light.svg" alt="Satvik Saini — Full Stack Developer. Thoughtful interfaces, dependable backends." width="100%">
 </picture>
 
-<br/>
+<p align="center">
+  <a href="https://www.linkedin.com/in/satvik-saini-3a8a24266/"><img src="assets/profile/button-linkedin.svg" height="34" alt="LinkedIn"></a>
+  <a href="mailto:satviksaini7777@gmail.com"><img src="assets/profile/button-email.svg" height="34" alt="Email"></a>
+  <a href="https://satvik-saini-portfolio.satviksaini7777.chatgpt.site"><img src="assets/profile/button-portfolio.svg" height="34" alt="Portfolio"></a>
+  <a href="https://github.com/Satvik77777"><img src="assets/profile/button-github.svg" height="34" alt="GitHub"></a>
+  <a href="https://x.com/Satvik2510"><img src="assets/profile/button-x.svg" height="34" alt="X"></a>
+</p>
 
-<!-- ===== PROFILE TELEMETRY / VISITOR COUNTER ===== -->
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Satvik77777&color=22D3EE&style=for-the-badge&label=PROFILE+VIEWS" alt="Satvik's Profile Views" />
-</div>
+## About me
 
-<br/>
+I’m **Satvik Saini**, a Computer Science graduate building full-stack applications with **JavaScript, TypeScript, and the MERN stack**.
 
-<!-- ===== GITHUB STATS ===== -->
-<div align="center">
+My recent work explores **AI-powered career tools** and **reliable financial transaction systems**. I enjoy the parts where a useful interface meets careful backend engineering: structured AI responses, authentication, validation, and data integrity.
 
-<!-- Recent Contributions — full width (reliable repo asset, 100% uptime) -->
-<img width="100%" src="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/recent-contributions.svg" alt="Recent Contributions" />
+I also contribute to open source through **Accord Project**, and practise data structures and algorithms on [LeetCode](https://leetcode.com/u/Satvik7777/).
 
-<br/><br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/pipeline-dark.svg">
+  <img src="assets/profile/pipeline-light.svg" alt="An illustrative animated request moving from interface to API, validation, and database." width="100%">
+</picture>
 
-<!-- Stats + Top languages — side by side (deep dark cyber theme) -->
-<img width="49%" src="https://github-readme-stats-sigma-rosy-28.vercel.app/api?username=Satvik77777&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=22D3EE&icon_color=A78BFA&text_color=94A3B8&bg_color=0A101F&card_width=500" alt="Satvik's GitHub Stats" />
-&nbsp;
-<img width="49%" src="https://github-readme-stats-sigma-rosy-28.vercel.app/api/top-langs/?username=Satvik77777&layout=compact&langs_count=8&hide_border=true&title_color=22D3EE&text_color=94A3B8&bg_color=0A101F&card_width=500" alt="Top Languages" />
+## Selected projects
 
-</div>
+### AI Interview Prep & ATS Résumé Platform
 
-<br/>
+A résumé and a job description become a focused preparation plan: role analysis, technical and behavioural questions, model answers, and a preparation roadmap.
 
-<!-- ===== OPEN SOURCE ORGANIZATIONS & CONTRIBUTIONS ===== -->
-<div align="center">
-  <a href="https://github.com/accordproject" target="_blank" title="Visit @accordproject on GitHub">
-    <img src="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/badge_accordproject.svg" alt="@accordproject" height="34" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/Apicurio" target="_blank" title="Visit @Apicurio on GitHub">
-    <img src="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/badge_apicurio.svg" alt="@Apicurio" height="34" />
-  </a>
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/project-ai-dark.svg">
+  <img src="assets/profile/project-ai-light.svg" alt="Project blueprint: résumé and job description flow through Gemini and Zod validation into a preparation plan and PDF résumé." width="100%">
+</picture>
 
-<br/>
+- **Structured AI:** Gemini responses validated with Zod before rendering.
+- **Document workflow:** pdf-parse for extraction; Puppeteer for tailored A4 résumés.
+- **Authentication:** JWT in HTTP-only cookies, Bcrypt, and token blacklisting on logout.
 
-<!-- Accord Project Dropdown -->
-<details open>
-  <summary>🏢 <b>Accord Project (@accordproject) Activity &amp; Repositories</b> ▾</summary>
-  <br/>
-  <div align="center">
-    <a href="https://github.com/accordproject" target="_blank" title="Open @accordproject on GitHub">
-      <img src="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/activity-overview.svg" width="100%" alt="Accord Project Activity Overview and Contributions" />
-    </a>
-  </div>
-  <p align="center">
-    📂 <b>Featured Repositories:</b>
-    <a href="https://github.com/accordproject/template-playground" target="_blank"><code>template-playground</code></a> •
-    <a href="https://github.com/accordproject/apap" target="_blank"><code>apap</code></a> •
-    <a href="https://github.com/accordproject/concerto" target="_blank"><code>concerto</code></a> •
-    <a href="https://github.com/accordproject/markdown-transform" target="_blank"><code>markdown-transform</code></a>
-  </p>
-</details>
+**React · Node.js · Express · MongoDB · Gemini API · Zod · Puppeteer**
 
-<!-- Apicurio Dropdown -->
+[Live demo ↗](https://interview-ai-two-xi.vercel.app/) · [Source code ↗](https://github.com/Satvik77777/interview-ai)
+
+### Double-Entry Ledger & Transaction Service
+
+A financial backend built around append-only ledger records, consistent transfers, and balances derived from transaction history.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/project-ledger-dark.svg">
+  <img src="assets/profile/project-ledger-light.svg" alt="Project blueprint: an idempotent request creates debit and credit entries within one atomic transaction; balance is derived from ledger entries." width="100%">
+</picture>
+
+- **Consistency:** multi-document MongoDB ACID transactions for transfers.
+- **Retry safety:** unique transaction keys for idempotent payment APIs.
+- **Auditability:** immutable ledger entries and aggregation-based balances.
+- **Notifications:** Nodemailer with Google OAuth 2.0.
+
+**Node.js · Express · MongoDB · Mongoose · JWT · OAuth 2.0**
+
+[Live demo ↗](https://backend-ledger-frontend.vercel.app/) · [Source code ↗](https://github.com/Satvik77777/backend-ledger)
+
+<sub>Blueprints illustrate the project architecture; they are not application screenshots or benchmarks.</sub>
+
+## Open source
+
+### Accord Project
+
+Contributions to the [Accord Project](https://github.com/accordproject) ecosystem, with experience working through pull requests, maintainer feedback, and code review.
+
+[Explore my merged pull requests ↗](https://github.com/accordproject/apap/pulls?q=is%3Apr+author%3ASatvik77777+is%3Amerged) · [Pull Shark achievement ↗](https://github.com/Satvik77777?tab=achievements)
+
 <details>
-  <summary>🏢 <b>Apicurio (@Apicurio) Activity &amp; Repositories</b> ▾</summary>
-  <br/>
-  <div align="center">
-    <a href="https://github.com/Apicurio" target="_blank" title="Open @Apicurio on GitHub">
-      <img src="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/activity-overview-apicurio.svg" width="100%" alt="Apicurio Activity Overview and Contributions" />
-    </a>
-  </div>
-  <p align="center">
-    📂 <b>Featured Repositories:</b>
-    <a href="https://github.com/Apicurio/apicurio-registry" target="_blank"><code>apicurio-registry</code></a> (PR <a href="https://github.com/Apicurio/apicurio-registry/pull/9045" target="_blank">#9045</a>: MCP compatible tools API &amp; UI)
-  </p>
+<summary><strong>Other contribution work · Apicurio</strong></summary>
+
+Proposed a compatible-tools API endpoint and UI compatibility view in [Apicurio Registry PR #9045](https://github.com/Apicurio/apicurio-registry/pull/9045). This proposal was **closed without merging**.
+
 </details>
 
-<br/>
+## Toolkit
 
-<!-- ===== ACCURATE CONTRIBUTION SNAKE WITH MONTHS ===== -->
-<div align="center">
+| Area | Tools |
+| :--- | :--- |
+| Languages | JavaScript, TypeScript, C++, HTML, CSS, SQL |
+| Frontend | React, Tailwind CSS, responsive interfaces |
+| Backend | Node.js, Express, REST APIs, JWT, Zod, Socket.io |
+| Data | MongoDB, Mongoose, MySQL, aggregation, ACID transactions |
+| AI & documents | Gemini API, prompt engineering, Puppeteer, pdf-parse |
+| Workflow | Git, GitHub, Postman, npm, code review |
+
+### Currently exploring
+
+Structured AI output, dependable transaction APIs, and the small engineering decisions that make a product easier to use and maintain.
+
+## A year of building
+
+A snapshot of my public GitHub activity, with a date range and last-updated label.
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/github-snake.svg" />
-  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/github-snake-dark.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/contributions-dark.svg">
+  <img src="assets/profile/contributions-light.svg" alt="Contribution calendar with actual public activity, an animated snake, date range, and update date." width="100%">
 </picture>
-</div>
 
-<!-- ===== SOCIAL BADGES ===== -->
-<br/>
-<div align="center">
-
-<a href="https://www.linkedin.com/in/satvik-saini-3a8a24266/" target="_blank">
-  <img src="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/badge_linkedin.svg" alt="LinkedIn" height="32" />
-</a>
-&nbsp;&nbsp;
-<a href="https://x.com/Satvik2510" target="_blank">
-  <img src="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/badge_twitter.svg" alt="Twitter / X" height="32" />
-</a>
-&nbsp;&nbsp;
-<a href="mailto:satviksaini7777@gmail.com">
-  <img src="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/badge_email.svg" alt="Email" height="32" />
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/Satvik77777" target="_blank">
-  <img src="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/badge_github.svg" alt="GitHub" height="32" />
-</a>
-
-</div>
+<p align="center"><sub>Small steps. Useful software. Something new to learn.</sub></p>
