@@ -1,6 +1,6 @@
 # GitHub profile redesign preview
 
-Prepared 2026-10-08 for Satvik Saini. Updated after feedback requesting stronger visual character and clearly visible animation. This is a reversible preview; the original profile is preserved in Git history.
+Prepared 2026-10-08 for Satvik Saini. Updated after feedback requesting stronger visual character and clearly visible animation. The user merged the first preview via PR #1. The GIF-motion revision was subsequently merged and pushed to main at functional commit `bb7a667a84b26498b5d8ec0f24986a8f9a7c644e`. The original profile is preserved in Git history.
 
 ## Original version
 
@@ -56,7 +56,7 @@ GIF decoding verifies real image-frame movement without relying on SVG animation
 
 ## Reversibility
 
-While the work is on the preview branch, main and the displayed GitHub profile are unchanged. Closing the draft PR leaves the old profile intact.
+The work began on `profile-redesign-preview`. The current revision is now on main and displayed on the profile. The preview branch remains available for comparison. The user created and merged PR #1; the connector's earlier attempt to create a draft PR had been refused.
 
 If later merged, prefer reverting the merge/redesign commit through GitHub or Git rather than rewriting history. For an exact old appearance, restore README.md from the original commit above. All the old graphics are still present, so that README can reference them again. A restore/revert requires the user's instruction; do not use destructive reset or force-push as a rollback shortcut.
 
