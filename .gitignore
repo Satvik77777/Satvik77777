@@ -1,3 +1,4 @@
 *.png
 *.py
 preview.html
+node_modules/
