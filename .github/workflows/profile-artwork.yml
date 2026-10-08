@@ -1,0 +1,29 @@
+name: Refresh profile artwork
+on:
+  schedule:
+    - cron: '23 4 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: profile-artwork-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  artwork:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Generate artwork from public GitHub activity
+        run: node scripts/build-profile.mjs
+      - name: Save refreshed artwork
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/profile
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh profile artwork [skip ci]'
+            git push
+          fi
