@@ -95,12 +95,11 @@ Structured AI output, dependable transaction APIs, and the small engineering dec
 
 ## A year of building
 
-<div align="center">
+A snapshot of my public GitHub activity, with a date range and last-updated label.
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/github-snake-dark.svg?v=2026100902">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/github-snake.svg?v=2026100902">
-  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/github-snake-dark.svg?v=2026100902" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/assets/profile/contributions-dark.gif?v=2026100903">
+  <img src="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/assets/profile/contributions-light.gif?v=2026100903" alt="Contribution calendar with actual public activity, an animated snake, date range, and update date." width="100%">
 </picture>
-</div>
 
 <p align="center"><sub>Small steps. Useful software. Something new to learn.</sub></p>
