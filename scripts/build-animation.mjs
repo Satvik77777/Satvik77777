@@ -65,10 +65,17 @@ for(const theme of ['light','dark']){
     const overlay=`<circle cx="${x}" cy="174" r="14" fill="${bright}" opacity=".13"/><circle cx="${x}" cy="174" r="7" fill="${bright}"/><circle cx="${x}" cy="174" r="2" fill="${bg}"/>`;
     return pipeline.replace('</svg>',overlay+'</svg>');
   },110);
-  const header=(await readFile(`${directory}/header-${theme}.svg`,'utf8')).replace(/<rect x="732" y="219"[^>]*\/>/,'');
+  const headerBase=(await readFile(`${directory}/header-${theme}.svg`,'utf8'))
+    .replace(/<rect x="732" y="219"[^>]*\/>/,'')
+    .replace(/<circle cx="1028" cy="76" r="4"[^>]*\/>/,'')
+    .replace(/<path d="M40 279H1060"[^>]*\/>/,'');
   await encode('header',theme,40,frame=>{
-    const x=40+frame/39*930;
-    const cursor=frame%12<6?`<rect x="732" y="219" width="7" height="13" fill="${bright}"/>`:'';
-    return header.replace('</svg>',`<path d="M${x} 279h70" stroke="${accent}" stroke-width="3"/>${cursor}</svg>`);
-  },130);
+    const x=40+(frame/39)*900;
+    const pulseR=3.5+2.5*Math.sin((frame/40)*Math.PI*4);
+    const pulseRing=`<circle cx="1028" cy="76" r="${(pulseR*2.2).toFixed(1)}" fill="${accent}" opacity="0.22"/><circle cx="1028" cy="76" r="${pulseR.toFixed(1)}" fill="${accent}"/>`;
+    const cursor=frame%10<5?`<rect x="732" y="219" width="7" height="13" fill="${bright}"/>`:'';
+    const scanTrack=`<path d="M40 279H1060" stroke="${accent}" stroke-width="1" opacity=".18"/>`;
+    const scanBeam=`<line x1="${x}" y1="279" x2="${Math.min(1060, x+120)}" y2="279" stroke="${accent}" stroke-width="3" stroke-linecap="round"/><circle cx="${Math.min(1060, x+120)}" cy="279" r="3" fill="${bright}"/>`;
+    return headerBase.replace('</svg>',`${scanTrack}${scanBeam}${pulseRing}${cursor}</svg>`);
+  },120);
 }

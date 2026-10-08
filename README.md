@@ -1,8 +1,6 @@
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/profile/header-dark.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile/header-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/header-dark.gif">
-  <img src="assets/profile/header-light.gif" alt="Satvik Saini — Full Stack Developer. Thoughtful interfaces, dependable backends." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/assets/profile/header-dark.gif?v=2026100901">
+  <img src="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/assets/profile/header-light.gif?v=2026100901" alt="Satvik Saini — Full Stack Developer. Thoughtful interfaces, dependable backends." width="100%">
 </picture>
 
 <p align="center">
@@ -22,10 +20,8 @@ My recent work explores **AI-powered career tools** and **reliable financial tra
 I also contribute to open source through **Accord Project**, and practise data structures and algorithms on [LeetCode](https://leetcode.com/u/Satvik7777/).
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/profile/pipeline-dark.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile/pipeline-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/pipeline-dark.gif">
-  <img src="assets/profile/pipeline-light.gif" alt="An illustrative animated request moving from interface to API, validation, and database." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/assets/profile/pipeline-dark.gif?v=2026100901">
+  <img src="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/assets/profile/pipeline-light.gif?v=2026100901" alt="An illustrative animated request moving from interface to API, validation, and database." width="100%">
 </picture>
 
 ## Selected projects
@@ -102,10 +98,18 @@ Structured AI output, dependable transaction APIs, and the small engineering dec
 A snapshot of my public GitHub activity, with a date range and last-updated label.
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/profile/contributions-dark.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile/contributions-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/contributions-dark.gif">
-  <img src="assets/profile/contributions-light.gif" alt="Contribution calendar with actual public activity, an animated snake, date range, and update date." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/assets/profile/contributions-dark.gif?v=2026100901">
+  <img src="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/assets/profile/contributions-light.gif?v=2026100901" alt="Contribution calendar with actual public activity, an animated snake, date range, and update date." width="100%">
 </picture>
+
+<br/><br/>
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/github-snake-dark.svg?v=2026100901">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/github-snake.svg?v=2026100901">
+  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/github-snake-dark.svg?v=2026100901" width="100%">
+</picture>
+</div>
 
 <p align="center"><sub>Small steps. Useful software. Something new to learn.</sub></p>
