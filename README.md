@@ -102,4 +102,28 @@ A snapshot of my public GitHub activity, with a date range and last-updated labe
   <img src="https://raw.githubusercontent.com/Satvik77777/Satvik77777/main/assets/profile/contributions-light.gif?v=2026100903" alt="Contribution calendar with actual public activity, an animated snake, date range, and update date." width="100%">
 </picture>
 
+<br/>
+
+<details open>
+  <summary>🏢 <b>Accord Project (@accordproject) Activity &amp; Repositories</b> ▾</summary>
+  <br/>
+  <div align="center">
+    <a href="https://github.com/accordproject" target="_blank" rel="noopener noreferrer" title="Open @accordproject on GitHub">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/profile/accord-activity-dark.svg">
+        <img src="assets/profile/accord-activity-light.svg" alt="Accord Project Activity Overview and Contributions" width="100%">
+      </picture>
+    </a>
+  </div>
+  <p align="center">
+    📂 <b>Featured Repositories:</b>
+    <a href="https://github.com/accordproject/template-playground" target="_blank" rel="noopener noreferrer"><code>template-playground</code></a> •
+    <a href="https://github.com/accordproject/apap" target="_blank" rel="noopener noreferrer"><code>apap</code></a> •
+    <a href="https://github.com/accordproject/concerto" target="_blank" rel="noopener noreferrer"><code>concerto</code></a> •
+    <a href="https://github.com/accordproject/markdown-transform" target="_blank" rel="noopener noreferrer"><code>markdown-transform</code></a>
+  </p>
+</details>
+
+<br/>
+
 <p align="center"><sub>Small steps. Useful software. Something new to learn.</sub></p>

@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 236" width="850" height="236">
+  <defs>
+    <linearGradient id="cardBgLight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#edf3f6"/>
+    </linearGradient>
+    <filter id="radarGlowLight" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .card-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 600; fill: #172839; letter-spacing: 0.2px; }
+    .sub-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 13.5px; font-weight: 500; fill: #53697b; }
+    .repo-link { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 13.5px; font-weight: 600; fill: #007c91; text-decoration: none; }
+    .repo-link:hover { text-decoration: underline; fill: #005b6a; }
+    .text-muted { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 13.5px; fill: #7b91a3; font-weight: 400; }
+    .radar-pct { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 700; fill: #172839; }
+    .radar-label { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 11px; font-weight: 500; fill: #53697b; }
+  </style>
+
+  <!-- Card Background -->
+  <rect width="850" height="236" rx="12" fill="url(#cardBgLight)" stroke="#cbdbe5" stroke-width="1.2"/>
+
+  <!-- Top Organization Pill: @accordproject -->
+  <g transform="translate(32, 22)">
+    <rect width="186" height="34" rx="8" fill="#e2edf3" stroke="#b0cadb" stroke-width="1.2"/>
+    
+    <!-- Accord Project stylized Logo -->
+    <g transform="translate(9, 6)">
+      <rect width="22" height="22" rx="4.5" fill="#d4e5f0" stroke="#b0cadb" stroke-width="1"/>
+      <path d="M5.5 17 L11 4.5 L16.5 17 Z" fill="none" stroke="#007c91" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+      <line x1="7.5" y1="13" x2="14.5" y2="13" stroke="#005b6a" stroke-width="2"/>
+    </g>
+    
+    <text x="39" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#172839">@accordproject</text>
+    <!-- Outward link arrow icon -->
+    <path d="M165 13 L173 13 M173 13 L173 21 M173 13 L165 21" fill="none" stroke="#007c91" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Left: Activity overview & Contributed to Section -->
+  <g transform="translate(32, 82)">
+    <text x="0" y="4" class="card-title">Activity overview</text>
+    
+    <!-- Contributed to header with book icon -->
+    <g transform="translate(0, 26)">
+      <!-- Book Repo Icon -->
+      <g transform="translate(0, -1)">
+        <rect x="0.8" y="0.8" width="14.4" height="14.4" rx="2" fill="none" stroke="#53697b" stroke-width="1.6"/>
+        <line x1="4.8" y1="1" x2="4.8" y2="15" stroke="#53697b" stroke-width="1.5"/>
+        <path d="M8 1 L8 6.5 L10.5 4.8 L13 6.5 L13 1" fill="#53697b"/>
+      </g>
+      <text x="24" y="12" class="sub-title">Contributed to</text>
+      
+      <!-- Repositories -->
+      <g transform="translate(24, 38)">
+        <!-- accordproject/template-playground -->
+        <a href="https://github.com/accordproject/template-playground" target="_blank">
+          <text x="0" y="0" class="repo-link">accordproject/template-playground<tspan class="text-muted"> ,</tspan></text>
+        </a>
+        
+        <!-- accordproject/apap and other repositories -->
+        <g transform="translate(0, 25)">
+          <a href="https://github.com/accordproject/apap" target="_blank">
+            <text x="0" y="0" class="repo-link">accordproject/apap <tspan class="text-muted">and other repositories</tspan></text>
+          </a>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Middle Divider Line -->
+  <line x1="435" y1="20" x2="435" y2="216" stroke="#cbdbe5" stroke-width="1.2" stroke-dasharray="3,3"/>
+
+  <!-- Right: Activity Breakdown 4-Axis Radar Chart in Bluish Palette -->
+  <g transform="translate(0, 0)">
+    <!-- Radar Background Rings/Diamonds for Visual Depth -->
+    <polygon points="645,85 678,118 645,151 612,118" fill="none" stroke="#e0ecf3" stroke-width="1"/>
+    <polygon points="645,69 694,118 645,167 596,118" fill="none" stroke="#d5e5ed" stroke-width="1" stroke-dasharray="2,2"/>
+    <polygon points="645,52 711,118 645,184 579,118" fill="none" stroke="#cbdbe5" stroke-width="1"/>
+
+    <!-- 4 Axes lines -->
+    <g stroke="#cbdbe5" stroke-width="1.6" stroke-linecap="round">
+      <!-- Horizontal axis: Commits <-> Issues -->
+      <line x1="579" y1="118" x2="711" y2="118"/>
+      <!-- Vertical axis: Code Review <-> Pull Requests -->
+      <line x1="645" y1="52" x2="645" y2="184"/>
+    </g>
+
+    <!-- Radar Area Polygon: Teal (#007c91) -->
+    <polygon points="645.0,114.0 649.0,118.0 645.0,127.2 582.3,118.0" fill="rgba(0, 124, 145, 0.20)" stroke="#007c91" stroke-width="2.2" filter="url(#radarGlowLight)"/>
+
+    <!-- Vertex Points -->
+    <circle cx="645.0" cy="114.0" r="3.5" fill="#007c91" stroke="#ffffff" stroke-width="1.4"/>
+    <circle cx="645.0" cy="127.2" r="3.5" fill="#007c91" stroke="#ffffff" stroke-width="1.4"/>
+    <circle cx="582.3" cy="118.0" r="4.2" fill="#007c91" stroke="#ffffff" stroke-width="1.5"/>
+    <circle cx="649.0" cy="118.0" r="3.5" fill="#007c91" stroke="#ffffff" stroke-width="1.4"/>
+
+    <!-- Axis Labels -->
+    <!-- Top: Code review (1%) -->
+    <g transform="translate(645, 44)" text-anchor="middle">
+      <text y="-11" class="radar-pct">1%</text>
+      <text y="2" class="radar-label">Code review</text>
+    </g>
+
+    <!-- Bottom: Pull requests (3%) -->
+    <g transform="translate(645, 198)" text-anchor="middle">
+      <text y="0" class="radar-pct">3%</text>
+      <text y="14" class="radar-label">Pull requests</text>
+    </g>
+
+    <!-- Left: Commits (95%) -->
+    <g transform="translate(568, 118)" text-anchor="end">
+      <text y="-4" class="radar-pct">95%</text>
+      <text y="10" class="radar-label">Commits</text>
+    </g>
+
+    <!-- Right: Issues (1%) -->
+    <g transform="translate(722, 118)" text-anchor="start">
+      <text y="-4" class="radar-pct">1%</text>
+      <text y="10" class="radar-label">Issues</text>
+    </g>
+  </g>
+</svg>
